@@ -79,55 +79,30 @@ main {
 }
 
 /* Estilização para cards de serviços */
-
-.card img{
+.card {
     position: relative;
     width: 300px;
     height: 300px;
-    background: url(https://img.freepik.com/fotos-gratis/conceito-para-o-dia-internacional-das-juizas_23-2151932070.jpg?t=st=1737511002~exp=1737514602~hmac=e54916dcf387b65bbd31062357e967957c5b08bb48496ebcd88e52d346f19628&w=740)
-      no-repeat center center;
-    background-size: cover; /* Ajusta a imagem para cobrir todo o card */
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.card__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #fff;
-    opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.card:hover .card__content {
-    transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 1;
-}
-
-.card__title {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-    font-weight: 700;
-}
-
-.card__description {
-    margin: 10px 0 0;
-    font-size: 14px;
-    color: #777;
-    line-height: 1.4;
-}
+    background-size: cover; /* Ajusta a imagem para cobrir todo o card */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+  }
+  
+  .card-1 {
+    background: url(https://img.freepik.com/fotos-gratis/conceito-para-o-dia-internacional-das-juizas_23-2151932070.jpg?t=st=1737511002~exp=1737514602~hmac=e54916dcf387b65bbd31062357e967957c5b08bb48496ebcd88e52d346f19628&w=740);
+  }
+  
+  .card-2 {
+    background: url(https://img.freepik.com/fotos-gratis/medico-verificando-um-de-seus-pacientes_23-2149017270.jpg?t=st=1737505452~exp=1737509052~hmac=80ff9c9abb82490a055fde80ac1f1da02d40442166283ecb89c84e511a8e192b&w=740);
+  }
+  
+  .card-3 {
+    background: url(https://img.freepik.com/fotos-gratis/pequena-refugiada-esperando-pelo-ajuda_23-2149359140.jpg?t=st=1737505677~exp=1737509277~hmac=80e6b0567d3d792c5e30e5361262aa8d1c424a53a374b3cc4e248c155b3af3cb&w=740);
+  }
+  
