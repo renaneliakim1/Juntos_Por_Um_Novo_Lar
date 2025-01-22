@@ -44,6 +44,16 @@ header .nav-link:hover {
 }
 
 
+header.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 0.5rem;
+  margin: 10px;
+}
+
+
 
 /* body */
 .doacao {

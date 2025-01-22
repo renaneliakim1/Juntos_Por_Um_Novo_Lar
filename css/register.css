@@ -30,6 +30,8 @@ header {
     padding-right: 5%;
 }
 
+
+
 header .nav-link {
     text-decoration: none;
     color: var(--color-text);
@@ -43,12 +45,30 @@ header .nav-link:hover {
     color: var(--color-hover);
 }
 
-.bnt.doar {
+
+
+.buttons{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    height: 0.5rem;
+    margin: 10px;
+}
+
+
+.form-check-chekbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 0.5rem;
+    margin: 10px;
 
 }
+
+
 
 #bnt-doar {
     width: 5rem;
@@ -87,21 +107,6 @@ h1 {
 
 
 
-.dark-theme .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: var(--fundo-dark);
-    padding: 30px;
-    width: 450px;
-    height: 50rem;
-    border-radius: 20px;
-    /*  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-}
-
-/* ::placeholder {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
 
 .form button {
     align-self: flex-end;
@@ -134,20 +139,8 @@ h1 {
 }
 
 
-.dark-theme .input {
-    margin-left: 10px;
-    border-radius: 10px;
-    border: none;
-    width: 94%;
-    height: 100%;
-    background-color: var(--fundo-dark);
-    color: #f8f8f8;
-}
 
 
-.dark-theme ::placeholder {
-    color: #ecedec;
-}
 
 .input:focus {
     outline: none;
@@ -205,18 +198,12 @@ h1 {
 }
 
 
-.dark-theme .button-submit {
-    background-color: var(--texto-hover-dark);
-}
+
 
 .button-submit:hover {
     background-color: #252727;
 }
 
-
-.dark-theme .button-submit:hover {
-    background-color: #c96e35;
-}
 
 
 
@@ -232,14 +219,6 @@ h1 {
     text-decoration: none;
 }
 
-
-.dark-theme .p {
-    color: #f8f8f8;
-}
-
-.dark-theme .flex-row label {
-    color: #f8f8f8;
-}
 
 
 
