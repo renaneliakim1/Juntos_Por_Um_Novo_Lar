@@ -43,6 +43,9 @@ header .nav-link:hover {
   color: var(--color-hover);
 }
 
+
+
+/* body */
 .doacao {
   display: flex;
   justify-content: space-between;
