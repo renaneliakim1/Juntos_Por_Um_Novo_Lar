@@ -88,6 +88,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-bottom: 2%;
+}
+
+
+
+
+.accordion{
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 155;
 }
 
 
@@ -95,17 +108,9 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+.accordion-item>.accordion-header .accordion-button {
+    background-color: transparent;
+}
 
 
 
@@ -121,6 +126,7 @@ main {
 footer {
     background-color: var(--color-text);
     color: #fff;
+    
 
 }
 
