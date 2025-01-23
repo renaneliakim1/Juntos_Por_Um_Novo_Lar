@@ -44,7 +44,7 @@ header .nav-link:hover {
 }
 
 
-header.buttons{
+header.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +52,33 @@ header.buttons{
   height: 0.5rem;
   margin: 10px;
 }
+
+
+.hamburger-menu {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--color-text);
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+}
+
+#nav-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+#nav-menu.hidden {
+  display: none;
+}
+
+
 
 
 
@@ -231,7 +258,7 @@ h5 {
   max-width: 100%;
   box-sizing: border-box;
 
- 
+
 }
 
 
@@ -501,4 +528,130 @@ footer a {
 
 footer ul {
   list-style: none;
+}
+
+
+/* Responsividade para dispositivos grandes */
+@media (max-width: 1200px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .doacao {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .doacao>div,
+  .section-doacao {
+    height: auto;
+    padding: 10px;
+  }
+
+  main,
+  section.noticias {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .depoimentos {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--background--);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    z-index: 9;
+  }
+
+  #nav-menu.show {
+    display: flex;
+  }
+
+
+
+  main,
+  section.noticias {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .depoimentos {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .input-wrapper {
+    width: 80%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  header {
+    padding: 5px;
+  }
+
+  .doacao {
+    padding: 5px;
+  }
+
+  .section-doacao {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .card,
+  .card-noticias {
+    width: 100%;
+  }
+
+  .depoimentos {
+    padding: 5px;
+  }
+
+  .input-wrapper {
+    width: 90%;
+  }
+
+  h1,
+  .titulo {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }
