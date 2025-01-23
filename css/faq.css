@@ -94,6 +94,19 @@ main {
     padding-bottom: 2%;
 }
 
+.accordion-button:not(.collapsed){
+    color: var(--color-text);
+}
+
+h2{
+    color: var(--color-text);
+}
+
+
+.accordion-body{
+    color: var(--color-text);
+}
+
 
 
 
