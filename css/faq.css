@@ -82,7 +82,11 @@ header {
   #logo{
     width: 8rem;
   }
-  
+
+
+  a.nav-link.active{
+    background-color: transparent !important;
+  }
   
   
   .hamburger-menu {

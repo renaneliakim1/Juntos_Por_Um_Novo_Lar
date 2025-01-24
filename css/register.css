@@ -110,6 +110,10 @@ header .buttons {
 }
 
 
+a.nav-link.active{
+    background-color: transparent !important;
+  }
+
 
 
 .form-check-chekbox {

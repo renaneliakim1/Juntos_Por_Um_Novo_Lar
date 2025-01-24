@@ -109,7 +109,9 @@ header .buttons {
     display: none;
 }
 
-
+a.nav-link.active{
+    background-color: transparent !important;
+  }
 
 main {
     display: flex;
