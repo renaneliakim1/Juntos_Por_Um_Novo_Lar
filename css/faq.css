@@ -41,6 +41,12 @@ header .nav-link {
 
 header .nav-link:hover {
     color: var(--color-hover);
+    border: none;
+}
+
+
+.nav-tabs .nav-link{
+    border:none ! important;
 }
 
 
