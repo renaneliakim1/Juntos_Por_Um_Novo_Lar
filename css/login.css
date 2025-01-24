@@ -28,11 +28,17 @@ header {
     padding: 10px 20px;
     padding-left: 5%;
     padding-right: 5%;
+    align-items: center;
 }
 
 header .nav-link {
+
+
+
     text-decoration: none;
     color: var(--color-text);
+    font-weight: 600;
+
 }
 
 .nav-tabs {
@@ -45,12 +51,38 @@ header .nav-link {
 header .nav-link:hover {
     color: var(--color-hover);
     border: none;
+
 }
 
 
-.nav-tabs .nav-link{
-    border:none ! important;
+.nav-tabs .nav-link {
+    border: none ! important;
 }
+
+
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 0.5rem;
+    margin: 10px;
+}
+
+
+
+
+#logo {
+    width: 8rem;
+}
+
 
 
 .hamburger-menu {
@@ -75,19 +107,6 @@ header .nav-link:hover {
 
 #nav-menu.hidden {
     display: none;
-}
-
-
-
-
-
-.buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 0.5rem;
-    margin: 10px;
 }
 
 
@@ -175,17 +194,16 @@ h1 {
 
 
 
-
-
-
-
-
 .span {
     font-size: 14px;
     margin-left: 5px;
     color: #ee826f;
     font-weight: 500;
     cursor: pointer;
+}
+
+p a  {
+    text-decoration: none;
 }
 
 .button-submit {

@@ -28,11 +28,16 @@ header {
   padding: 10px 20px;
   padding-left: 5%;
   padding-right: 5%;
+  align-items: center;
 }
 
 header .nav-link {
+ 
+
+
   text-decoration: none;
   color: var(--color-text);
+  font-weight: 600;
 }
 
 .nav-tabs {
@@ -45,6 +50,7 @@ header .nav-link {
 header .nav-link:hover {
   color: var(--color-hover);
   border: none;
+
 }
 
 
@@ -52,7 +58,15 @@ header .nav-link:hover {
   border:none ! important;
 }
 
-header.buttons {
+
+
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +74,14 @@ header.buttons {
   height: 0.5rem;
   margin: 10px;
 }
+
+
+
+
+#logo{
+  width: 8rem;
+}
+
 
 
 .hamburger-menu {
@@ -171,9 +193,10 @@ section.noticias {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card img {
+.card img,
+.card-noticias img {
   width: 100%;
-  height: auto;
+  height: 10rem;
 }
 
 .card-body {
@@ -533,6 +556,9 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  color: var(--color-hover);
+}
 
 footer ul {
   list-style: none;
