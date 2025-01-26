@@ -552,10 +552,56 @@ h5 {
   font-size: var(--label-size);
 }
 
+h4{
+  text-align: center;
+}
+
+
+.partners{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
 
 
 
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+/*   max-width: 800px; */
+  position: relative;
 
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 3rem;
+  animation: scroll 30s linear infinite;
+}
+
+.icones img {
+  width: 100px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* keyframes para .icones */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 
 
@@ -585,6 +631,18 @@ footer a:hover {
 footer ul {
   list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsividade para dispositivos grandes */
@@ -767,3 +825,7 @@ footer ul {
     font-size: 0.8rem;
   }
 }
+
+
+
+
