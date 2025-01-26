@@ -30,6 +30,21 @@ header {
   padding-right: 5%;
   align-items: center;
   padding-bottom: 40px;
+
+
+  position: sticky;
+  top: 0px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: rgb(255, 255, 255);
+  z-index: 9999999;
+  height: 2.5rem;
+  padding-top:2.5rem;
+
+
+
+
+
+
 }
 
 header .nav-link {
@@ -577,6 +592,18 @@ footer ul {
   header {
     flex-direction: column;
     align-items: center;
+
+
+    position: sticky;
+    top: 0px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999999;
+    height: 2.5rem;
+    padding-top:2.5rem;
+    padding-bottom: 10rem;
+
+    
   }
 
   .doacao {
@@ -621,6 +648,19 @@ footer ul {
     padding: 10px;
     gap: 20px;
     padding-bottom: 20px;
+
+
+    position: sticky;
+    top: 0px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999999;
+    height: 2.5rem;
+    padding-top:2.5rem;
+    padding-bottom: 6rem;
+
+
+
   }
 
 
@@ -680,6 +720,19 @@ footer ul {
 @media (max-width: 480px) {
   header {
     padding: 5px;
+
+
+    position: sticky;
+    top: 0px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999999;
+    height: 2.5rem;
+    padding-top:2.5rem;
+    padding-bottom: 6rem;
+
+
+    
   }
 
   .doacao {

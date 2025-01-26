@@ -270,7 +270,8 @@ h1 {
 
 
 
-.p {
+.p,
+h6 {
     text-align: center;
     color: black;
     font-size: 14px;
@@ -280,6 +281,8 @@ h1 {
 .p a {
     text-decoration: none;
 }
+
+
 
 
 
