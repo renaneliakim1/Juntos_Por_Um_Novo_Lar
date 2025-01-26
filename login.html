@@ -14,13 +14,17 @@
 </head>
 <body>
     <header>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logo.png" alt=""></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Início</a>
-            </li>
+
+        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logo.svg" alt=""></a>
+
+
+        
+        <button id="menu-toggle" class="hamburger-menu">
+            ☰
+        </button>
+    
+        <ul class="nav nav-tabs" id="nav-menu">
+           
             <li class="nav-item">
                 <a class="nav-link" href="#">Guia de Acolhimento</a>
             </li>
@@ -33,24 +37,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Sobre nós</a>
             </li>
-            <!-- 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </li> -->
+
+            <li class="nav-item">
+                <a class="nav-link" href="/faq.html">FAQ</a>
+            </li>
         </ul>
+
         <div class="buttons">
             <a href=""><button type="button" class="btn btn-dark">Doar</button></a>
-            <a href="/login.html"><button type="button" class="btn btn-dark">Entrar</button></a>
+<!--        <a href="/login.html"><button type="button" class="btn btn-dark">Entrar</button></a> -->
             <a href="/register.html"><button type="button" class="btn btn-dark">Cadastrar</button></a>
         </div>
     </header>
@@ -180,4 +175,5 @@
     </footer>
 </body>
 <script src="/js/password.js"></script>
+<script src="/js/menu-toggle.js"></script>
 </html>
