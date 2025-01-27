@@ -38,7 +38,7 @@ header {
   background-color: rgb(255, 255, 255);
   z-index: 9999999;
   height: 2.5rem;
-  padding-top:2.5rem;
+  padding-top: 2.5rem;
 
 
 
@@ -48,7 +48,7 @@ header {
 }
 
 header .nav-link {
- 
+
 
 
   text-decoration: none;
@@ -70,13 +70,13 @@ header .nav-link:hover {
 }
 
 
-.nav-tabs .nav-link{
-  border:none ! important;
+.nav-tabs .nav-link {
+  border: none ! important;
 }
 
 
 
-.nav-item{
+.nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,7 +94,7 @@ header .buttons {
 
 
 
-#logo{
+#logo {
   width: 8rem;
 }
 
@@ -127,7 +127,7 @@ header .buttons {
 
 
 
-a.nav-link.active{
+a.nav-link.active {
   background-color: transparent !important;
 }
 
@@ -242,6 +242,9 @@ h1 {
 
 
 .noticias-fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background--);
   padding-left: 5%;
   padding-right: 5%;
@@ -253,6 +256,15 @@ h1 {
 
 
 /* estilização para seçã de noticias */
+
+
+.noticias-fundo-h4{
+  background-color: var(--background--);
+  margin: 0;
+
+}
+
+
 section.noticias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -271,8 +283,7 @@ section.noticias {
   margin: 0 auto;
   /* Centraliza o grid no container */
   box-sizing: border-box;
-  padding-left: 5%;
-  padding-right: 5%;
+
 
 }
 
@@ -552,17 +563,19 @@ h5 {
   font-size: var(--label-size);
 }
 
-h4{
+/* Estilização dos parceiros */
+
+h4 {
   text-align: center;
 }
 
 
-.partners{
+.partners {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  
+
 }
 
 
@@ -571,8 +584,8 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; 
-/*   max-width: 800px; */
+  overflow: hidden;
+  /*   max-width: 800px; */
   position: relative;
 
 }
@@ -658,10 +671,10 @@ footer ul {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top:2.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 10rem;
 
-    
+
   }
 
   .doacao {
@@ -714,7 +727,7 @@ footer ul {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top:2.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 6rem;
 
 
@@ -748,8 +761,27 @@ footer ul {
   main,
   section.noticias {
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 100%;
   }
+
+
+  .card-noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+
+
+  .card img, .card-noticias img {
+    width: 100%;
+    height: 15rem;
+  }
+
+
+
+
 
   .card {
     width: 100%;
@@ -786,11 +818,11 @@ footer ul {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top:2.5rem;
+    padding-top: 2.5rem;
     padding-bottom: 6rem;
 
 
-    
+
   }
 
   .doacao {
@@ -825,7 +857,3 @@ footer ul {
     font-size: 0.8rem;
   }
 }
-
-
-
-
