@@ -270,6 +270,18 @@ h1 {
   margin-bottom: 0;
 }
 
+
+.stretched-link  {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+
+
+.stretched-link:hover {
+  color: var(--color-hover);
+}
+
 .noticias-fundo {
   display: flex;
   justify-content: center;
