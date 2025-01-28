@@ -94,6 +94,8 @@ header .buttons {
 
 
 
+
+
 #logo {
   width: 8rem;
 }
@@ -181,7 +183,7 @@ a.nav-link.active {
 }
 
 
-main{
+main {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -193,14 +195,14 @@ main{
 
 
 
-.w-100{
+.w-100 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 20rem;
+  height: 13rem;
   width: 1rem;
-  
+
 }
 
 
@@ -251,6 +253,12 @@ section.noticias {
  */
 
 
+.bg-body-secondary {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
 h1 {
   text-align: center;
   font-weight: 600;
@@ -260,19 +268,22 @@ h1 {
 }
 
 
-.works-fundo-h4{
+.works-fundo-h4,
+.education-fundo-h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(233,236,239);
+  background-color: rgb(233, 236, 239);
   padding-left: 5%;
   padding-right: 5%;
   margin-bottom: 0;
 }
 
 
-.stretched-link  {
-  color: var(--color-text);
+
+
+.stretched-link {
+  color: var(--cor0--);
   text-decoration: none;
 }
 
@@ -299,7 +310,7 @@ h1 {
 /* estilização para seçã de noticias */
 
 
-.noticias-fundo-h4{
+.noticias-fundo-h4 {
   background-color: var(--background--);
   margin: 0;
 
@@ -718,6 +729,23 @@ footer ul {
 
   }
 
+
+
+  section.noticias {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+
+
   .doacao {
     flex-direction: column;
     height: auto;
@@ -729,7 +757,7 @@ footer ul {
     padding: 10px;
   }
 
- 
+
 
   .depoimentos {
     flex-direction: column;
@@ -792,9 +820,19 @@ footer ul {
     display: flex;
   }
 
+  section.noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 
-
- 
 
 
   .card-noticias {
@@ -865,6 +903,24 @@ footer ul {
     text-align: center;
     padding: 10px;
   }
+
+
+
+
+  section.noticias {
+    display: flex;
+    flex-direction: column;
+   
+    justify-items: center;
+    align-items: start;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+
 
   .card,
   .card-noticias {
