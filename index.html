@@ -65,7 +65,72 @@
 
 
     <section class="doacao">
-        <div class="section-doacao">
+
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <!-- Texto dinâmico à esquerda -->
+                <div class="col-md-6 text-center text-md-start" id="carousel-text">
+                    <h1>Todos por um novo lar</h1>
+                    <p class="texto-apresentacao">Aqui você encontra vagas de emprego e Educação.</p>
+                    <!--<button type="button" class="btn btn-dark">Fazer Doação</button> -->
+                </div>
+                <!-- Carrossel à direita -->
+                <div class="col-md-6">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active"
+                                data-text="<h1>Ajude a transformar vidas</h1><p>As doações são gestos de solidariedade que transformam vidas e fortalecem comunidades. Elas podem ser feitas em forma de alimentos, roupas, ou até mesmo tempo e conhecimento. Cada contribuição, por menor que pareça, pode fazer uma grande diferença para quem está em situação de vulnerabilidade. Doar é um ato de empatia que promove esperança e mudanças positivas.</p>">
+
+
+                                <img src="https://img.freepik.com/fotos-gratis/mendigos-sentados-debaixo-da-ponte-com-um-sinal-ajudem-por-favor_1150-22941.jpg?t=st=1737505312~exp=1737508912~hmac=6fb1b8bb2d7ec638d72d6fc5e1ee7512ee36756e0a2459c3ed2387ee959526a0&w=740"
+                                    class="d-block w-100" alt="Mendigos sentados sob uma ponte">
+
+
+
+
+
+                            </div>
+
+
+
+                            <!-- Slide 2 -->
+                            <div class="carousel-item"
+                                data-text="<h1>Solidariedade importa</h1><p> A solidariedade importa porque nos conecta como seres humanos, criando uma rede de apoio e cuidado mútuo. É através dela que compartilhamos recursos, tempo e empatia, ajudando aqueles que enfrentam dificuldades. </p>">
+                                <img src="https://i3.wp.com/adus.org.br/wp-content/uploads/2023/10/solidariedade.png"
+                                    class="d-block w-100" alt="aperto de mãos coletivo">
+
+
+
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="carousel-item"
+                                data-text="<h1>Empregos</h1><p>Consulte vagas ou cadastre uma vaga em nosso Banco de Oportunidades.</p>">
+                                <img src="https://media.istockphoto.com/id/1394701218/pt/foto/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=Gj2R5Yz8M04NMjXBComA1qZ3SrJsZgBAqbZInm1o4c4="
+                                    class="d-block w-100" alt="Médico ajudando um paciente">
+
+
+                            </div>
+                        </div>
+                        <!-- Controles de navegação -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="section-doacao">
             <h1>Seja a estrela que guia uma vida</h1>
 
             <p>Aqui, acreditamos em acolhimento, respeito e
@@ -97,7 +162,7 @@
                         class="d-block w-100" alt="...">
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </section>
 
@@ -113,7 +178,7 @@
                 <div class="row g-0 bg-body-secondary position-relative">
                     <div class="col-md-6 mb-md-0 p-md-4">
                         <img src="https://tm.ibxk.com.br/2024/04/23/23165209830076.jpg" class="w-100"
-                            alt="Trabalho em tecnologia">
+                            alt="Trabalho em tecnologia" >
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
                         <h5 class="mt-0">Programa de Inclusão no Setor de Tecnologia</h5>
@@ -128,7 +193,7 @@
             <div class="works">
                 <div class="row g-0 bg-body-secondary position-relative">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="https://clickpetroleoegas.com.br/wp-content/uploads/2020/03/constru%C3%A7%C3%A3o-civil-vagas-emprego-engenharia-EQS-scaled.jpg"
+                        <img src="https://clickpetroleoegas.com.br/wp-content/uploads/2020/03/constru%C3%A7%C3%A3o-civil-vagas-emprego-engenharia-EQS-scaled.jpg" 
                             class="w-100" alt="Trabalho na construção civil">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
@@ -497,5 +562,6 @@
 </body>
 
 <script src="/js/menu-toggle.js"></script>
+<script src="/js/slideChange.js"></script>
 
 </html>
