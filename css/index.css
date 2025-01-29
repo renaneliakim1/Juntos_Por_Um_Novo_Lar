@@ -300,6 +300,9 @@ a.nav-link.active {
 }
 
 
+#carousel-text p {
+  text-align: justify;
+}
 
 
 
@@ -397,7 +400,7 @@ h1 {
   padding-right: 5%;
 }
 
-
+/* 
 .emprego,
 .educacao {
   display: flex;
@@ -406,7 +409,10 @@ h1 {
   flex-direction: column;
   background-color: rgb(233, 236, 239);
   padding: 1rem;
-}
+} */
+
+
+
 
 
 .works-fundo-h4,
@@ -422,10 +428,31 @@ h1 {
 }
 
 
+.maisOportunidades,
+.maisEducacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 0;
+  background-color: rgb(233, 236, 239);
 
+
+}
 
 strong {
   font-size: 2rem;
+
+}
+
+
+.politicasDePrivacidade{
+  font-size: 1rem;
+
+}
+
+.politicasDePrivacidade:hover{
+  color: var(--color-hover);
 
 }
 
