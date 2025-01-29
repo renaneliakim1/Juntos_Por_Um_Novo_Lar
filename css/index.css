@@ -974,8 +974,15 @@ footer ul {
     justify-content: center;
   }
 
+  #work{
+    padding: 0;
+  }
 
 }
+
+
+
+
 
 /* Responsividade para tablets */
 @media (max-width: 768px) {
@@ -1057,6 +1064,17 @@ footer ul {
   .card {
     width: 100%;
   }
+
+
+
+  .bg-body-secondary {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
 
   .depoimentos {
     padding: 1rem;
