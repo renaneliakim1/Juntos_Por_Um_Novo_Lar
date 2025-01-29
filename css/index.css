@@ -1102,7 +1102,7 @@ footer ul {
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
   header {
-    padding: 5px;
+    padding: 20px;
 
 
     position: sticky;
