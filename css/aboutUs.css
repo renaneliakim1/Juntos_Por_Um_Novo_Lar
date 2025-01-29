@@ -83,6 +83,7 @@ header .buttons {
   margin: 10px;
 }
 
+
 #logo{
   width: 8rem;
 }
@@ -392,12 +393,11 @@ footer ul {
     padding-top: 2.5rem;
     height: auto;
 
-  
-  
-  
-  
-  
-  
+  }
+
+  .doacao {
+   padding-left: 5%;
+   padding-right: 5%;
   }
 
   .doacao,
