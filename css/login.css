@@ -30,8 +30,8 @@ header {
     padding-right: 5%;
     align-items: center;
     padding-bottom: 40px;
-  
-  
+
+
     position: sticky;
     top: 0px;
     transition: background-color 0.3s, color 0.3s;
@@ -39,13 +39,13 @@ header {
     z-index: 9999999;
     height: 2.5rem;
     padding-top: 2.5rem;
-  
-  
-  
-  
-  
-  
-  }
+
+
+}
+
+
+
+
 
 header .nav-link {
 
@@ -119,8 +119,8 @@ header .buttons {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-  
-  }
+
+}
 
 #nav-menu.hidden {
     display: none;
@@ -344,31 +344,72 @@ footer ul {
 
 /* Responsividade para dispositivos grandes */
 @media (max-width: 1200px) {
+
     header {
-        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        padding-left: 5%;
+        padding-right: 5%;
         align-items: center;
-        gap: 20px;
+        padding-bottom: 40px;
+
+
+        position: sticky;
+        top: 0px;
+        transition: background-color 0.3s, color 0.3s;
+        background-color: rgb(255, 255, 255);
+        z-index: 9999999;
+        height: 2.5rem;
+        padding-top: 4rem;
+
+
+
+
+
+
     }
 }
 
 
 @media (max-width: 924px) {
     header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-  
-  
-  }
-  
-  /* Responsividade para tablets */
-  @media (max-width: 768px) {
+
+
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
     header {
-      padding: 10px;
-      gap: 20px;
-      padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: center;
+        padding-bottom: 40px;
+
+
+        position: sticky;
+        top: 0px;
+        transition: background-color 0.3s, color 0.3s;
+        background-color: rgb(255, 255, 255);
+        z-index: 9999999;
+        height: 4rem;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 1rem;
+
+
+
+
+
+
     }
 
     .hamburger-menu {
