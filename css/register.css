@@ -77,6 +77,7 @@ header .nav-link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 header .buttons {
@@ -172,10 +173,60 @@ h1 {
     background-color: #ffffff;
     padding: 30px;
     width: 450px;
-    height: 58rem;
+    height: 65rem;
     border-radius: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+#pills-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-item {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: var(--color-text);
+    --bs-nav-pills-link-active-bg: var(--color-hover);
+
+
+
+}
+
+#pills-home-tab,
+#pills-profile-tab,
+#pills-contact-tab{
+    border: solid 1px var(--color-hover);
+    color: var(--color-text);
+
+}
+
+
+
+
+
+
+
+/* Responsividade na troca de botões */
+.tab-pane.fade.show.active{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.emailSenha{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+
 
 
 
@@ -199,6 +250,7 @@ h1 {
     align-items: center;
     padding-left: 10px;
     transition: 0.2s ease-in-out;
+ 
 
 }
 
@@ -377,7 +429,7 @@ footer ul {
         transition: background-color 0.3s, color 0.3s;
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
-        height:10rem;
+        height:15rem;
         padding-top: 3rem;
     }
 }
@@ -388,6 +440,9 @@ footer ul {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        height:15rem;
+
     }
 
 
@@ -399,6 +454,8 @@ footer ul {
         padding: 10px;
         gap: 20px;
         padding-bottom: 20px;
+        height:9rem;
+
     }
 
 
