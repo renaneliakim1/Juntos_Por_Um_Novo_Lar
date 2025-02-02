@@ -334,15 +334,10 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
+.btn-primary{
+    --bs-btn-bg: var(--color-text) !important;
+    --bs-btn-border-color: var(--color-text) !important;
+}
 
 
 
