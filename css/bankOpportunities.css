@@ -345,6 +345,10 @@ p.name-enterprise {
 }
 
 
+.modal-content{
+    margin-top: 15rem;
+    z-index: 9999999999999999;
+}
 
 
 
