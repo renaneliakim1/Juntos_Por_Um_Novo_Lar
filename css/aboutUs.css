@@ -553,6 +553,10 @@ footer ul {
     padding: 10px;
   }
 
+  .carousel-inner{
+    height: 15rem;
+  }
+
   .card,
   .card-noticias {
     width: 100%;
