@@ -1,5 +1,6 @@
 const jsonProfissoes = {
   "profissoes": [
+      "Não Tenho Profissão",
       "Advogado",
       "Agente de Viagens",
       "Agrônomo",

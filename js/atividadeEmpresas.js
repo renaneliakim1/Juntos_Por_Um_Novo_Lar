@@ -126,6 +126,8 @@ jsonAtividadeEmpresas.profissoesEmpresas.forEach((profissaoEmpresas, index) => {
 
 document.addEventListener("DOMContentLoaded", function () {
   const profissoes = [
+      "Não Tenho Profissão",
+
       "Advogado", "Agente de Viagens", "Agrônomo", "Alfaiate", "Almoxarife", "Analista de Dados",
       "Analista de Marketing", "Analista de Sistemas", "Arquiteto", "Artista Plástico",
       "Assistente Administrativo", "Assistente Social", "Atendente", "Auditor", "Auxiliar de Enfermagem",

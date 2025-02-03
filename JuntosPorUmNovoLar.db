@@ -1,0 +1,54 @@
+create database Juntos_Por_Um_Novo_Lar;
+use Juntos_Por_Um_Novo_Lar;
+
+
+/*
+create table profissao(
+id_profissao int primary key,
+profissao_refugiado varchar(100) unique not null,
+profissao_voluntario varchar(100) unique not null
+
+);
+*/
+create table empresa(
+id_empresa int auto_increment primary key unique,
+nome_empresa varchar (255) not null,
+cnpj_empresa varchar(50) not null ,
+email_empresa varchar(100) unique,
+senha_empresa varchar(255) not null
+);
+
+
+create table profissao_refugiado(
+id_profissao int auto_increment primary key,
+nome_profissao_refugiado varchar (100) unique not null 
+);
+
+create table profissao_voluntario(
+id_profissao int auto_increment primary key,
+nome_profissao_voluntario varchar (100) unique not null 
+);
+
+create table voluntario(
+id_voluntario int auto_increment primary key unique,
+nome_voluntario varchar (255) not null,
+cpf_voluntario varchar(50) not null ,
+nascimento_voluntario date,
+profissao_voluntario int null,
+email_voluntario varchar(100) unique,
+senha_voluntario varchar(255) not null,
+foreign key (profissao_voluntario)  references profissao_voluntario(id_profissao) on delete set null
+
+);
+
+create table refugiado(
+id_refugiado int auto_increment primary key  ,
+nome_refugiado varchar (255) not null,
+cpf_refugiado varchar(50) not null unique,
+nascimento_refugiado date,
+profissao_refugiado int null,
+email_refugiado varchar(100) unique,
+senha_refugiado varchar(255) not null,
+foreign key (profissao_refugiado)  references profissao_refugiado(id_profissao) on delete set null
+
+);
