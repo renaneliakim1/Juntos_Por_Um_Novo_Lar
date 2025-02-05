@@ -1,0 +1,21 @@
+Entidades e Relacionamentos
+Empresa (id_empresa, nome_empresa, cnpj_empresa, email_empresa, senha_empresa)
+🔹 Relacionamento: 1:N com Vaga (uma empresa pode oferecer várias vagas).
+
+Profissão Refugiado (id_profissao, nome_profissao_refugiado)
+🔹 Relacionamento: 1:N com Refugiado (um refugiado tem uma única profissão).
+🔹 Relacionamento: 1:N com Vaga (uma vaga requer uma profissão específica).
+
+Profissão Voluntário (id_profissao, nome_profissao_voluntario)
+🔹 Relacionamento: 1:N com Voluntário (um voluntário tem uma única profissão).
+
+Voluntário (id_voluntario, nome_voluntario, cpf_voluntario, nascimento_voluntario, profissao_voluntario, email_voluntario, senha_voluntario)
+🔹 Relacionamento: N:1 com Profissão Voluntário (um voluntário pode ter uma profissão).
+
+Refugiado (id_refugiado, nome_refugiado, cpf_refugiado, nascimento_refugiado, profissao_refugiado, email_refugiado, senha_refugiado)
+🔹 Relacionamento: N:1 com Profissão Refugiado (um refugiado pode ter uma profissão).
+
+Vaga (id_vaga, titulo_vaga, descricao_vaga, id_empresa, id_profissao_refugiado)
+🔹 Relacionamento: N:1 com Empresa (uma empresa pode oferecer várias vagas).
+🔹 Relacionamento: N:1 com Profissão Refugiado (uma vaga requer uma profissão específica de refugiado).
+

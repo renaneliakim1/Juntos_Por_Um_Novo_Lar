@@ -97,7 +97,7 @@ header .buttons {
 
 
 #logo {
-    width: 8rem;
+    width: 10rem;
 }
 
 
@@ -146,21 +146,33 @@ a.nav-link.active {
     overflow: hidden;
     cursor: pointer;
     padding-left: 15px;
+    margin-bottom: 2%;
+
 
 }
 
+
+
 .input {
-    width: 400px;
+    width: 500px;
     height: 100%;
     border: none;
     outline: none;
     font-size: 0.9em;
-    caret-color: rgb(255, 81, 0);
+    caret-color: rgb(0, 0, 0);
     /* cor ddo cursor */
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    padding-left: 8px; /* Garante espaço para o ícone */
+
+    
 
 }
+
+
+::placeholder {
+    padding: 2px;
+}  
 
 .labelforsearch {
     cursor: text;
@@ -208,6 +220,7 @@ main {
     width: 100%;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 2%;
     display: grid;
     gap: 20px;
     justify-content: center;
@@ -390,7 +403,7 @@ th, td {
     text-align: left;
     border: 1px solid transparent;
     text-align: justify;
-    font-size: 10px;
+    font-size: 12px;
 
 }
 
@@ -687,30 +700,46 @@ h4 {
 
 
 
-
 footer {
     background-color: var(--color-text);
     color: #fff;
+  
+  }
+  
+  #rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 
-}
-
-footer a {
+    
+    
+  
+  
+  }
+  
+  footer a {
     color: #fff;
     text-decoration: none;
-}
-
-footer a:hover {
+    font-size: 11px;
+  }
+  
+  footer a:hover {
     color: var(--color-hover);
-}
-
-footer ul {
+  }
+  
+  footer ul {
     list-style: none;
-}
-
-
-
-
-
+  }
+  
+  footer h4{
+    font-size: 16px;
+  }
+  
+  
+  footer .mensage{
+    font-size: 11px;
+  }
+  
 
 @media(max-width: 2560px) {
     .bg-body-secondary {
@@ -782,6 +811,7 @@ footer ul {
     main{
         padding-left: 6%;
         padding-right: 6%;
+        
     }
 }
 

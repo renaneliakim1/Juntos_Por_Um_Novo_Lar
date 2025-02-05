@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="shortcut icon" href="/assests/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assests/favicon.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/register.css">
 
@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logo.svg"
+        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logobr.svg"
                 title="Juntos Por Um Novo Lar" alt="Logo do Juntos Por Um Novo Lar"></a>
 
 
@@ -47,9 +47,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/educationCareers.html">Educação e Carreira</a>
             </li>
-            <li class="nav-item">
+          <!--   <li class="nav-item">
                 <a class="nav-link" href="#">Notícias</a>
-            </li>
+            </li> -->
 
             <li class="nav-item">
                 <a class="nav-link" href="/aboutUs.html">Sobre nós</a>
@@ -62,8 +62,9 @@
         </ul>
 
         <div class="buttons">
-            <a href=""><button type="button" class="btn btn-dark" title=" Doar" alt="Doar" >Doar</button></a>
-            <a href="/login.html"><button type="button" class="btn btn-dark" title=" Entrar" alt="Entrar" >Entrar</button></a>
+            <!-- <a href=""><button type="button" class="btn btn-dark" title=" Doar" alt="Doar">Doar</button></a> -->
+            <a href="/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
+                    alt="Entrar">Entrar</button></a>
         </div>
     </header>
 
@@ -80,17 +81,17 @@
 
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" alt="Refugiado" title="Refugiado" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                        aria-selected="true">Refugiado</button>
+                    <button class="nav-link active" alt="Refugiado" title="Refugiado" id="pills-home-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                        aria-controls="pills-home" aria-selected="true">Refugiado</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" alt="Voluntario" title="Voluntario" 
-                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">Voluntario</button>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" alt="Voluntario"
+                        title="Voluntario" data-bs-target="#pills-profile" type="button" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">Voluntario</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" alt="Empresa" title="Empresa" 
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" alt="Empresa" title="Empresa"
                         data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
                         aria-selected="false">Empresa</button>
                 </li>
@@ -110,6 +111,23 @@
                         </svg>
                         <input type="text" class="input" placeholder="Nome Completo">
                     </div>
+
+                    <div class="inputForm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path
+                                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        <input list="nacionalidades" type="text" class="input" id="nacionalidadeInput"
+                            placeholder="Nacionalidade">
+                        <datalist id="nacionalidades">
+                            <!-- As opções serão geradas aqui via JS -->
+                        </datalist>
+                    </div>
+
+
+
 
                     <div class="inputForm">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -174,13 +192,18 @@
                     </div>
 
 
-                    <h6>Qual a sua profissão?</h6>
+                    <h6>Como você oretende ajudar?</h6>
+
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;  resize: none"></textarea>
+                        <label for="floatingTextarea2">Descreva suas habilidades e experiências...</label>
+                    </div>
 
 
-                    <select class="form-select" id="profissoesSelectVoluntarios" multiple
+                   <!--  <select class="form-select" id="profissoesSelectVoluntarios" multiple
                         aria-label="Multiple select example">
                         <option disabled selected></option>
-                    </select>
+                    </select> -->
 
                 </div>
 
@@ -302,7 +325,8 @@
 
                 </div>
 
-                <button class="button-submit" type="button" id="liveToastBtn" alt="Cadastrar" title="Cadastrar" >Cadastrar</button>
+                <button class="button-submit" type="button" id="liveToastBtn" alt="Cadastrar"
+                    title="Cadastrar">Cadastrar</button>
 
 
 
@@ -386,7 +410,7 @@
 
                 </div>
 
-                <p class="p">Já é menbro? <a href="/login.html"><span class="span">Login</span></a>
+                <p class="p">Já é membro? <a href="/login.html"><span class="span">Login</span></a>
         </form>
     </main>
 
@@ -397,15 +421,21 @@
     <footer>
         <div class="container text-center" id="rodape">
 
-            <div class="col">
-                <img src="/assets/logo.svg" alt="" id="logo">
-            </div>
+           
+
+
 
             <div class="row" id="footer-element">
 
+                <div class="col">
+                    <img src="/assests/logobr.svg" alt=""  id="logo">
+                </div>
+
+                
+    
 
 
-                <div class="col" id="informacoes">
+                <!-- <div class="col" id="informacoes">
                     <h4>INFORMAÇÕES</h4>
                     <ul>
                         <li><a href="#">Parceiros</a></li>
@@ -415,7 +445,7 @@
 
                     </ul>
 
-                </div>
+                </div> -->
 
                 <div class="col" id="contatos">
                     <h4>CONTATOS</h4>
@@ -450,7 +480,7 @@
                     </ul>
                 </div>
 
-                <p class="mensage">2025. ©.JUNTOS POR UM NOVO LAR.TODOS OS DIREITOS RESERVADOS.</p>
+                <p class="mensage">2025. ©.JUNTOS POR UM NOVO LAR. TODOS OS DIREITOS RESERVADOS.</p>
             </div>
 
         </div>
@@ -462,5 +492,6 @@
 <script src="/js/menu-toggle.js"></script>
 <script src="/js/professions.js"></script>
 <script src="/js/atividadeEmpresas.js"></script>
+<script src="/js/nationality.js"></script>
 
 </html>

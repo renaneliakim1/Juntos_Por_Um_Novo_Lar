@@ -85,7 +85,7 @@ header .buttons {
 
 
 #logo{
-  width: 8rem;
+  width: 10rem;
 }
 .hamburger-menu {
   display: none;
@@ -238,15 +238,33 @@ a.nav-link.active{
 
 
 
+
 footer {
   background-color: var(--color-text);
   color: #fff;
 
 }
 
+
+
+
+
+
+#rodape{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+
+  
+  
+
+
+}
+
 footer a {
   color: #fff;
   text-decoration: none;
+  font-size: 11px;
 }
 
 footer a:hover {
@@ -255,6 +273,15 @@ footer a:hover {
 
 footer ul {
   list-style: none;
+}
+
+footer h4{
+  font-size: 16px;
+}
+
+
+footer .mensage{
+  font-size: 11px;
 }
 
 

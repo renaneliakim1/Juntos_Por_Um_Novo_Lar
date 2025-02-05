@@ -1,0 +1,61 @@
+------notica   
+
+
+----logo
+
+----footer logo
+
+----- placeholder
+---------------falta espaçar de dentro do input 
+
+
+---voluntario no que ele pode ajudar tem textArea 
+
+----------------letras vermelhas pequenas 
+
+
+paginas
+doar
+noticias
+
+
+
+
+
+
+espaçamento
+
+
+segundo idioma
+
+refugiados
+---nacionalidade form  
+        e
+ db-modelagem 
+
+
+validação  para voluntarios vai ajudar ?
+
+
+uma pagina para cada voluntario
+
+
+empresa form - multeSelector
+
+
+tabela de cursos 
+cadastro com o adm
+
+
+5 tabelas e apenas duas se Relacionamento 
+
+
+Tabelas principais:
+Refugiados, voluntários, empresas e cursos
+ 
+Tabelas de apoio:
+Profissões se relaciona com a tabela refugiado e também com a tabela voluntários;
+Vagas se relaciona com a tabela empresas, já que elas que cadastram as vagas.
+
+
+

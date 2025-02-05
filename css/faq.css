@@ -97,7 +97,7 @@ header .buttons {
 
 
 #logo {
-    width: 8rem;
+    width: 10rem;
 }
 
 
@@ -142,6 +142,7 @@ main {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 2%;
+    flex:1;
 }
 
 .accordion-button:not(.collapsed) {
@@ -184,25 +185,46 @@ h2 {
 
 
 
-
-
 footer {
     background-color: var(--color-text);
     color: #fff;
+  
+  }
+  
+  #rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 
-
-}
-
-footer a {
+    
+    
+  
+  
+  }
+  
+  footer a {
     color: #fff;
     text-decoration: none;
-}
-
-
-footer ul {
+    font-size: 11px;
+  }
+  
+  footer a:hover {
+    color: var(--color-hover);
+  }
+  
+  footer ul {
     list-style: none;
-}
-
+  }
+  
+  footer h4{
+    font-size: 16px;
+  }
+  
+  
+  footer .mensage{
+    font-size: 11px;
+  }
+  
 
 
 /* Responsividade para dispositivos grandes */

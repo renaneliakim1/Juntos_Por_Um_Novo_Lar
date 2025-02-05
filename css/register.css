@@ -93,7 +93,7 @@ header .buttons {
 
 
 #logo {
-    width: 8rem;
+    width: 10rem;
 }
 
 
@@ -340,6 +340,10 @@ h6 {
     margin: 5px 0;
 }
 
+::placeholder{
+    font-size: 12px;
+}
+
 .p a {
     text-decoration: none;
 }
@@ -399,19 +403,43 @@ svg .dark-theme {
 footer {
     background-color: var(--color-text);
     color: #fff;
+  
+  }
+  
+  #rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 
-}
-
-footer a {
+    
+    
+  
+  
+  }
+  
+  footer a {
     color: #fff;
     text-decoration: none;
-}
-
-
-footer ul {
+    font-size: 11px;
+  }
+  
+  footer a:hover {
+    color: var(--color-hover);
+  }
+  
+  footer ul {
     list-style: none;
-}
-
+  }
+  
+  footer h4{
+    font-size: 16px;
+  }
+  
+  
+  footer .mensage{
+    font-size: 11px;
+  }
+  
 
 
 
