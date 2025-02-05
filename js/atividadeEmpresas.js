@@ -120,7 +120,7 @@ jsonAtividadeEmpresas.profissoesEmpresas.forEach((profissaoEmpresas, index) => {
 
 
 
-
+/* 
 
 
 
@@ -190,4 +190,4 @@ document.addEventListener("DOMContentLoaded", function () {
   preencherSelect("profissoesSelect", profissoes);
   preencherSelect("profissoesSelectVoluntarios", profissoes);
   preencherSelect("profissoesSelectEmpresa", profissoesEmpresas);
-});
+}); */

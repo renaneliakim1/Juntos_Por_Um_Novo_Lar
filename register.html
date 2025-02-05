@@ -47,7 +47,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/educationCareers.html">Educação e Carreira</a>
             </li>
-          <!--   <li class="nav-item">
+            <!--   <li class="nav-item">
                 <a class="nav-link" href="#">Notícias</a>
             </li> -->
 
@@ -149,12 +149,12 @@
                         <input type="date" class="input" placeholder="Nascimento">
                     </div>
 
-
-                    <h6>Escolha um cargo/função prentendida</h6>
-
-                    <select class="form-select" id="profissoesSelect" multiple aria-label="Multiple select example">
-                        <option disabled selected></option>
-                    </select>
+                    <div class="container mt-4">
+                        <h6>Quais funções você exerce?</h6>
+                        <div class="scroll-container scroll-container-profissional">
+                            <!-- Os cargos serão adicionados dinamicamente -->
+                        </div>
+                    </div>
 
 
                 </div>
@@ -195,15 +195,10 @@
                     <h6>Como você oretende ajudar?</h6>
 
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;  resize: none"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px;  resize: none"></textarea>
                         <label for="floatingTextarea2">Descreva suas habilidades e experiências...</label>
                     </div>
-
-
-                   <!--  <select class="form-select" id="profissoesSelectVoluntarios" multiple
-                        aria-label="Multiple select example">
-                        <option disabled selected></option>
-                    </select> -->
 
                 </div>
 
@@ -246,16 +241,13 @@
                             <input type="text" class="input" placeholder="Endereço">
                         </div>
 
+                        <div class="container mt-4">
+                            <h6>Quais funções sua empresa oferece?</h6>
+                            <div class="scroll-container scroll-container-empresa">
+                                <!-- Os cargos serão adicionados dinamicamente -->
+                            </div>
+                        </div>
 
-
-
-                        <h6>Qual cargo/função que sua empresa oferece</h6>
-
-
-                        <select class="form-select" id="profissoesSelectEmpresa" multiple
-                            aria-label="Multiple select example">
-                            <option disabled selected></option>
-                        </select>
 
 
                     </div>
@@ -421,18 +413,18 @@
     <footer>
         <div class="container text-center" id="rodape">
 
-           
+
 
 
 
             <div class="row" id="footer-element">
 
                 <div class="col">
-                    <img src="/assests/logobr.svg" alt=""  id="logo">
+                    <img src="/assests/logobr.svg" alt="" id="logo">
                 </div>
 
-                
-    
+
+
 
 
                 <!-- <div class="col" id="informacoes">
@@ -489,9 +481,16 @@
 </body>
 
 <script src="/js/password.js"></script>
+
 <script src="/js/menu-toggle.js"></script>
-<script src="/js/professions.js"></script>
-<script src="/js/atividadeEmpresas.js"></script>
+
+ <script src="/js/professions.js"></script>
+
+<!--<script src="/js/atividadeEmpresas.js"></script> -->
+
 <script src="/js/nationality.js"></script>
 
+
 </html>
+
+
