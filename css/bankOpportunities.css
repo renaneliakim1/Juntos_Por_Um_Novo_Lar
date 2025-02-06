@@ -817,7 +817,7 @@ footer {
 
 
 
-
+/* 
 
 @media (max-width: 924px) {
     header {
@@ -829,7 +829,7 @@ footer {
     }
 
 
-}
+} */
 
 
 
@@ -849,8 +849,8 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999;
         height: 2.5rem;
-        padding-top: 4rem;
-        padding-bottom: 6rem;
+/*         padding-top: 4rem; */ 
+       padding-bottom: 9rem;
 
 
 
@@ -912,8 +912,8 @@ footer {
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
     header {
-        padding: 20px;
-
+/*         padding: 20px;
+ */
 
         position: sticky;
         top: 0px;
@@ -921,8 +921,8 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
         height: 2.5rem;
-        padding-top: 4rem;
-        padding-bottom: 6rem;
+/*         padding-top: 4rem; */ 
+       padding-bottom: 9rem;
 
     }
 

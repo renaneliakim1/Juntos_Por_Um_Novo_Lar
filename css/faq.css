@@ -142,7 +142,7 @@ main {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 2%;
-    flex:1;
+    flex: 1;
 }
 
 .accordion-button:not(.collapsed) {
@@ -188,84 +188,64 @@ h2 {
 footer {
     background-color: var(--color-text);
     color: #fff;
-  
-  }
-  
-  #rodape{
+
+}
+
+#rodape {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 
-    
-    
-  
-  
-  }
-  
-  footer a {
+
+
+
+
+}
+
+footer a {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: var(--color-hover);
-  }
-  
-  footer ul {
+}
+
+footer ul {
     list-style: none;
-  }
-  
-  footer h4{
+}
+
+footer h4 {
     font-size: 16px;
-  }
-  
-  
-  footer .mensage{
+}
+
+
+footer .mensage {
     font-size: 11px;
-  }
-  
+}
+
 
 
 /* Responsividade para dispositivos grandes */
 @media (max-width: 1200px) {
     header {
-      flex-direction: column;
-      align-items: center;
-  
-  
-      position: sticky;
-      top: 0px;
-      transition: background-color 0.3s, color 0.3s;
-      background-color: rgb(255, 255, 255);
-      z-index: 9999999;
-      height: 3.5rem;
-      padding-top: 2.5rem;
-      padding-bottom: 10rem;
-  
-  
-    } 
-}
-
-
-@media (max-width: 924px) {
-    header {
         flex-direction: column;
         align-items: center;
-    
-    
+
+
         position: sticky;
         top: 0px;
         transition: background-color 0.3s, color 0.3s;
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
-        height: 2.5rem;
-        padding-top: 2.5rem;
+        height: 3.5rem;
+        /*       padding-top: 2.5rem;*/
         padding-bottom: 10rem;
-        height: auto;
-    
-    
+
+
     }
+
 
     main {
         display: flex;
@@ -276,28 +256,17 @@ footer {
         padding-right: 5%;
         padding-bottom: 2%;
     }
+
+    
 }
 
 
-.accordion {
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-
-
-
-
-
-
-/* Responsividade para tablets */
-@media (max-width: 768px) {
-    header {
+@media (max-width: 924px) {
+   /*  header {
         flex-direction: column;
         align-items: center;
-    
-    
+
+
         position: sticky;
         top: 0px;
         transition: background-color 0.3s, color 0.3s;
@@ -305,94 +274,137 @@ footer {
         z-index: 9999999;
         height: 2.5rem;
         padding-top: 2.5rem;
-        padding-bottom: 1rem;
+        padding-bottom: 10rem;
         height: auto;
-        gap: 20px;
-    
-    
-    }
 
 
-
-    .hamburger-menu {
-        display: block;
-    }
-
-    #nav-menu {
-        display: none;
-        flex-direction: column;
-        background-color: var(--background--);
-        position: absolute;
-        top: 50px;
-        left: 0;
-        width: 100%;
-        padding: 10px;
-        gap: 10px;
-        z-index: 9;
-    }
-
-    #nav-menu.show {
-        display: flex;
-    }
-
-
+    } */
 
     main {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-
-    .input-wrapper {
-        width: 80%;
-    }
-
-    footer {
-        text-align: center;
-        padding: 1rem;
-    }
-}
-
-/* Responsividade para smartphones */
-@media (max-width: 480px) {
-    header {
         display: flex;
-        justify-content: space-between;
-        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
         padding-left: 5%;
         padding-right: 5%;
-        align-items: center;
-        padding-bottom: 40px;
-    
-    
-    
-        position: sticky;
-        top: 0px;
-        transition: background-color 0.3s, color 0.3s;
-        background-color: rgb(255, 255, 255);
-        z-index: 9999999;
-        height: 10rem;
-        padding-top: 2.5rem;
-    
-    
-    
-    
-    
-    
+        padding-bottom: 2%;
+    }
+
+
+    .accordion {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 
 
-    .input-wrapper {
-        width: 90%;
-    }
-
-    h1,
-    .titulo {
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-
-    footer {
-        font-size: 0.8rem;
-    }
 }
+
+
+
+    /* Responsividade para tablets */
+    @media (max-width: 768px) {
+        header {
+            flex-direction: column;
+            align-items: center;
+
+
+            position: sticky;
+            top: 0px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: rgb(255, 255, 255);
+            z-index: 9999999;
+            height: 2.5rem;
+            padding-top: 0rem;
+            padding-bottom: 1rem;
+            height: auto;
+            gap: 20px;
+
+
+        }
+
+
+
+        .hamburger-menu {
+            display: block;
+        }
+
+        #nav-menu {
+            display: none;
+            flex-direction: column;
+            background-color: var(--background--);
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            gap: 10px;
+            z-index: 9;
+        }
+
+        #nav-menu.show {
+            display: flex;
+        }
+
+
+
+        main {
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+
+        .input-wrapper {
+            width: 80%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+
+    /* Responsividade para smartphones */
+    @media (max-width: 480px) {
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            align-items: center;
+            padding-bottom: 6rem;
+
+
+
+            position: sticky;
+            top: 0px;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: rgb(255, 255, 255);
+            z-index: 9999999;
+            height: 10rem; 
+            padding-bottom: 4rem;
+
+
+
+
+
+
+        }
+
+
+
+        .input-wrapper {
+            width: 90%;
+        }
+
+        h1,
+        .titulo {
+            font-size: 1.5rem;
+            padding: 1rem;
+        }
+
+        footer {
+            font-size: 0.8rem;
+        }
+    }
