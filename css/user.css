@@ -164,16 +164,17 @@ a.nav-link.active {
   /* cor ddo cursor */
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  padding-left: 8px; /* Garante espaço para o ícone */
+  padding-left: 8px;
+  /* Garante espaço para o ícone */
 
-  
+
 
 }
 
 
 ::placeholder {
   padding: 2px;
-}  
+}
 
 .labelforsearch {
   cursor: text;
@@ -225,120 +226,9 @@ a.nav-link.active {
 
 
 
-.doacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
-
-  background-color: rgb(233, 236, 239);
-
-  box-sizing: border-box;
-  /* Inclui o padding no cálculo de largura/altura */
-}
-
-.doacao .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  /* Espaço entre o texto e o carrossel */
-  width: 100%;
-  /* Ocupa toda a largura disponível */
-  height: 100%;
-  /* Ocupa toda a altura disponível */
-}
-
-.container.py-4 {
-  margin: 0;
-}
-
-.row.align-items-center {
-  width: 100rem;
-}
-
-.row.align-items-center h1 {
-  text-align: center;
-  font-size: 700;
-}
-
-#carousel-text h1,
-#carousel-text p {
-  text-align: center;
-
-}
-
-.row.align-items-center p {
-  text-align: justify;
-  font-weight: 600;
-
-}
 
 
-.d-block.w-100 {
-  height: 30rem;
-}
 
-
-.doacao .container .text-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 1.5rem;
-  /* Espaço entre os elementos de texto e botão */
-}
-
-.doacao .container .text-content h1 {
-  font-size: 2.5rem;
-  color: #333;
-  margin: 0;
-  text-align: left;
-}
-
-.doacao .container .text-content p {
-  font-size: 1.2rem;
-  color: #555;
-  margin: 0;
-  line-height: 1.6;
-}
-
-.doacao .container .text-content .btn {
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  background-color: #343a40;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.doacao .container .text-content .btn:hover {
-  background-color: #495057;
-}
-
-.doacao .container .carousel-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.doacao .container .carousel-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-#carousel-text p {
-  text-align: justify;
-}
 
 
 
@@ -349,119 +239,118 @@ main {
   padding-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-
-
-
-
-.w-100 {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 13rem;
-
+  padding-bottom: 40px;
 }
 
 
-.bg-body-secondary {
-  padding-left: 15%;
-  padding-right: 15%;
-}
 
 
-h1 {
+
+/* Container do perfil */
+.profile-container {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   text-align: center;
-  font-weight: 600;
-  padding: 2rem;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 20px;
 }
 
-/* 
-.emprego,
-.educacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: rgb(233, 236, 239);
-  padding: 1rem;
-} */
-
-
-
-
-
-.works-fundo-h4,
-.education-fundo-h4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(233, 236, 239);
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 0;
-  padding-top: 16px;
-
-
+/* Cabeçalho do perfil */
+.profile-header {
+  margin-bottom: 20px;
 }
 
-
-.maisOportunidades,
-.maisEducacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  margin-top: 0;
-  background-color: rgb(233, 236, 239);
-
-
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--cor2--);
 }
 
-
-
-
-strong {
-  font-size: 2rem;
-
+.profile-name {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #333;
 }
 
-
-.politicasDePrivacidade {
-  font-size: 1rem;
-
+.profile-bio {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
 }
 
-.politicasDePrivacidade:hover {
-  color: var(--color-hover);
-
+/* Conteúdo do perfil */
+.profile-content {
+  text-align: left;
 }
 
-
-
-.stretched-link {
-  color: var(--cor0--);
-  text-decoration: none;
+.profile-content h2 {
+  font-size: 18px;
+  color: var(--cor2--);
+  margin-top: 15px;
 }
 
-
-
-.stretched-link:hover {
-  color: var(--color-hover);
+.profile-content ul {
+  list-style: none;
+  margin: 10px 0;
 }
 
-.noticias-fundo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--background--);
-  padding-left: 5%;
-  padding-right: 5%;
+.profile-content ul li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
 }
 
+/* Botão de editar */
+.edit-button {
+  width: 100%;
+  padding: 10px;
+  background: var(--cor2--);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.edit-button:hover {
+  background: #0056b3;
+}
+
+/* Responsividade para telas menores que 480px */
+@media (max-width: 480px) {
+  .profile-container {
+      max-width: 100%;
+  }
+
+  .profile-avatar {
+      width: 80px;
+      height: 80px;
+  }
+
+  .profile-name {
+      font-size: 18px;
+  }
+
+  .profile-bio {
+      font-size: 12px;
+  }
+
+  .profile-content h2 {
+      font-size: 16px;
+  }
+
+  .edit-button {
+      font-size: 14px;
+      padding: 8px;
+  }
+}
 
 
 
@@ -852,12 +741,12 @@ footer {
 
 }
 
-#rodape{
+#rodape {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  
-  
+
+
 
 
 }
@@ -876,12 +765,12 @@ footer ul {
   list-style: none;
 }
 
-footer h4{
+footer h4 {
   font-size: 16px;
 }
 
 
-footer .mensage{
+footer .mensage {
   font-size: 11px;
 }
 
@@ -894,7 +783,7 @@ footer .mensage{
   .bg-body-secondary {
     padding-left: 25%;
     padding-right: 25%;
-}
+  }
 
 
 
@@ -929,7 +818,7 @@ footer .mensage{
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 3.5rem;
-/*     padding-top: 2.5rem; */
+    /*     padding-top: 2.5rem; */
     padding-bottom: 10rem;
 
 
@@ -981,7 +870,7 @@ footer .mensage{
     padding-top: 4rem;
   }
 
-  #work{
+  #work {
     padding: 0;
   }
 
@@ -1035,7 +924,7 @@ footer .mensage{
   }
 
 
- 
+
 
   section.noticias {
     display: grid;
@@ -1071,7 +960,7 @@ footer .mensage{
 
 
 
-  
+
 
 
 
@@ -1084,7 +973,7 @@ footer .mensage{
   .bg-body-secondary {
     padding-left: 5%;
     padding-right: 5%;
-}
+  }
 
 
 
@@ -1112,7 +1001,7 @@ footer .mensage{
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
   header {
-/*     padding: 20px;
+    /*     padding: 20px;
  */
 
     position: sticky;
