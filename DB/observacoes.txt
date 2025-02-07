@@ -16,16 +16,24 @@
 ------empresa form - multeSelector
 
 
-paginas
-doar
+------------espaçamento
+
+
 -----------noticias
 
 
+--------------uma pagina para cada voluntario
+
+----------validação  para voluntarios vai ajudar ?
 
 
 
 
-espaçamento
+
+
+
+paginas
+doar
 
 
 segundo idioma
@@ -36,17 +44,9 @@ refugiados
  db-modelagem 
 
 
-validação  para voluntarios vai ajudar ?
-
-
-uma pagina para cada voluntario
-
-
-
-
 
 tabela de cursos 
-cadastro com o adm
+cadastro com o adm (falar na apresentação)
 
 
 5 tabelas e apenas duas se Relacionamento 
