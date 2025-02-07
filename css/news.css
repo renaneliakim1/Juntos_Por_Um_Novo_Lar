@@ -25,11 +25,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
-  align-items: center;
-  padding-bottom: 40px;
+/*   align-items: center;
+ */ 
+ 
+ padding-bottom: 40px;
 
 
   position: sticky;
@@ -38,14 +40,31 @@ header {
   background-color: rgb(255, 255, 255);
   z-index: 9999999;
   height: 2.5rem;
-  padding-top: 2.5rem;
-
-
-
-
+  padding-top: 1rem;
+  padding-bottom: 10rem;
 
 
 }
+
+
+
+.header-logo{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  
+}
+
+
+
 
 header .nav-link {
 
@@ -231,13 +250,13 @@ main {
 }
 
 
-a{
+a {
   text-decoration: none !important;
 }
 
 p {
   margin-top: 0px;
-  margin-bottom: 4rem !important; 
+  margin-bottom: 4rem !important;
 }
 
 
@@ -668,6 +687,17 @@ footer .mensage {
   }
 
 
+  .header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+
+
 
   section.noticias {
     display: grid;
@@ -743,6 +773,30 @@ footer .mensage {
   }
 
 
+
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
+  }
+
+
+
+
+
+
+
+
   .hamburger-menu {
     display: block;
   }
@@ -779,14 +833,14 @@ footer .mensage {
   }
 
 
-  
+
   .card.mb-3 {
     width: 100%;
     height: 34rem;
   }
 
-  
-  body > main > a:nth-child(2) > div > div > div.col-md-4{
+
+  body>main>a:nth-child(2)>div>div>div.col-md-4 {
     width: 100%;
   }
 

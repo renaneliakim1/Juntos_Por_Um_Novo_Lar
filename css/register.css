@@ -22,15 +22,17 @@
   padding-right: 5%;
 } */
 
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-    align-items: center;
-    padding-bottom: 40px;
+    /*   align-items: center;
+   */
 
+    padding-bottom: 40px;
 
 
     position: sticky;
@@ -38,9 +40,28 @@ header {
     transition: background-color 0.3s, color 0.3s;
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
-    height: 7rem;
-/*     padding-top: 3rem;
- */
+    height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+
+
+}
+
+
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
 }
 
 header .nav-link {
@@ -182,7 +203,7 @@ h1 {
 
 
 
-#pills-tab{
+#pills-tab {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +221,7 @@ h1 {
 
 #pills-home-tab,
 #pills-profile-tab,
-#pills-contact-tab{
+#pills-contact-tab {
     border: solid 1px var(--color-hover);
     color: var(--color-text);
     font-weight: 500;
@@ -221,7 +242,7 @@ h1 {
 
 
 /* Responsividade na troca de botões */
-.tab-pane.fade.show.active{
+.tab-pane.fade.show.active {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -230,7 +251,7 @@ h1 {
 }
 
 
-.emailSenha{
+.emailSenha {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -261,7 +282,7 @@ h1 {
     align-items: center;
     padding-left: 10px;
     transition: 0.2s ease-in-out;
- 
+
 
 }
 
@@ -351,7 +372,7 @@ h6 {
     margin: 5px 0;
 }
 
-::placeholder{
+::placeholder {
     font-size: 12px;
 }
 
@@ -414,43 +435,43 @@ svg .dark-theme {
 footer {
     background-color: var(--color-text);
     color: #fff;
-  
-  }
-  
-  #rodape{
+
+}
+
+#rodape {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 
-    
-    
-  
-  
-  }
-  
-  footer a {
+
+
+
+
+}
+
+footer a {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: var(--color-hover);
-  }
-  
-  footer ul {
+}
+
+footer ul {
     list-style: none;
-  }
-  
-  footer h4{
+}
+
+footer h4 {
     font-size: 16px;
-  }
-  
-  
-  footer .mensage{
+}
+
+
+footer .mensage {
     font-size: 11px;
-  }
-  
+}
+
 
 
 
@@ -468,9 +489,23 @@ footer {
         transition: background-color 0.3s, color 0.3s;
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
-        height:15rem;
-/*         padding-top: 3rem;
- */    }
+        height: 15rem;
+        /*         padding-top: 3rem;
+ */
+    }
+
+
+
+    .header-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+
 }
 
 /* @media (max-width: 924px) {
@@ -490,12 +525,38 @@ footer {
 /* Responsividade para tablets */
 @media (max-width: 768px) {
     header {
-/*         padding: 10px;
- */        gap: 20px;
+        /*         padding: 10px;
+ */
+        gap: 20px;
         padding-bottom: 20px;
-        height:9rem;
+        height: 9rem;
 
     }
+
+
+
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+
+    }
+
+
+
+
+
+
+
 
 
     .hamburger-menu {
@@ -540,7 +601,7 @@ footer {
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
     header {
-      
+
         padding-bottom: 10rem;
     }
 

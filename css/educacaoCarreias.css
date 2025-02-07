@@ -25,10 +25,12 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-    align-items: center;
+    /*   align-items: center;
+   */
+
     padding-bottom: 40px;
 
 
@@ -38,12 +40,26 @@ header {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+
+
+}
 
 
 
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
 
 }
 
@@ -163,16 +179,17 @@ a.nav-link.active {
     /* cor ddo cursor */
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding-left: 8px; /* Garante espaço para o ícone */
+    padding-left: 8px;
+    /* Garante espaço para o ícone */
 
-    
+
 
 }
 
 
 ::placeholder {
     padding: 2px;
-}  
+}
 
 .labelforsearch {
     cursor: text;
@@ -225,7 +242,7 @@ main {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -331,7 +348,7 @@ main {
 
 .table-container {
     overflow-x: auto;
- 
+
 }
 
 table {
@@ -342,7 +359,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 th, td {
@@ -648,43 +665,43 @@ h4 {
 footer {
     background-color: var(--color-text);
     color: #fff;
-  
-  }
-  
-  #rodape{
+
+}
+
+#rodape {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 
-    
-    
-  
-  
-  }
-  
-  footer a {
+
+
+
+
+}
+
+footer a {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: var(--color-hover);
-  }
-  
-  footer ul {
+}
+
+footer ul {
     list-style: none;
-  }
-  
-  footer h4{
+}
+
+footer h4 {
     font-size: 16px;
-  }
-  
-  
-  footer .mensage{
+}
+
+
+footer .mensage {
     font-size: 11px;
-  }
-  
+}
+
 
 
 
@@ -756,11 +773,22 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
         height: 3.5rem;
-/*         padding-top: 2.5rem; */
+        /*         padding-top: 2.5rem; */
         padding-bottom: 10rem;
 
 
     }
+
+
+    .header-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
 
 
     .card-group {
@@ -805,12 +833,36 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
         height: 2.5rem;
-/*         padding-top: 4rem; */
+        /*         padding-top: 4rem; */
         padding-bottom: 9rem;
 
 
 
     }
+
+
+
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+
+    }
+
+
+
+
+
+
 
 
     .hamburger-menu {
@@ -874,7 +926,7 @@ footer {
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
     header {
-/*         padding: 20px;
+        /*         padding: 20px;
  */
 
         position: sticky;
@@ -883,7 +935,7 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
         height: 2.5rem;
-/*      padding-top: 4rem;*/
+        /*      padding-top: 4rem;*/
         padding-bottom: 9rem;
 
     }

@@ -16,6 +16,7 @@
   --cor4--: #D295BF;
   --background--: #F4F4F4;
 }
+
 /* body {
   padding-left: 5%;
   padding-right: 5%;
@@ -25,12 +26,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  flex-direction: column;
   padding-left: 5%;
   padding-right: 5%;
-  align-items: center;
-  padding-bottom: 40px;
+  /*   align-items: center;
+ */
 
+  padding-bottom: 40px;
 
 
   position: sticky;
@@ -39,17 +41,31 @@ header {
   background-color: rgb(255, 255, 255);
   z-index: 9999999;
   height: 2.5rem;
-  padding-top: 2.5rem;
-
-
-
-
+  padding-top: 1rem;
+  padding-bottom: 10rem;
 
 
 }
 
+
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+
+}
+
 header .nav-link {
- 
+
   text-decoration: none;
   color: var(--color-text);
   font-weight: 600;
@@ -64,11 +80,12 @@ header .nav-link:hover {
   border: none;
 
 }
-.nav-tabs .nav-link{
-  border:none ! important;
+
+.nav-tabs .nav-link {
+  border: none ! important;
 }
 
-.nav-item{
+.nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,9 +101,10 @@ header .buttons {
 }
 
 
-#logo{
+#logo {
   width: 10rem;
 }
+
 .hamburger-menu {
   display: none;
   font-size: 2rem;
@@ -106,12 +124,15 @@ header .buttons {
   justify-content: center;
   list-style: none;
 }
+
 #nav-menu.hidden {
   display: none;
 }
-a.nav-link.active{
+
+a.nav-link.active {
   background-color: transparent !important;
 }
+
 /**body*/
 .doacao {
   display: flex;
@@ -123,6 +144,7 @@ a.nav-link.active{
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .doacao>div {
   flex: 1;
   display: flex;
@@ -132,6 +154,7 @@ a.nav-link.active{
   padding: 20px;
   height: 35rem;
 }
+
 .section-doacao {
   display: flex;
   flex-direction: column;
@@ -145,6 +168,7 @@ a.nav-link.active{
   height: 35rem;
   flex: 1;
 }
+
 .doacao #carouselExampleSlidesOnly img {
   height: 30rem;
 }
@@ -165,6 +189,7 @@ a.nav-link.active{
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .missao>div {
   flex: 1;
   display: flex;
@@ -174,6 +199,7 @@ a.nav-link.active{
   padding: 20px;
   height: 35rem;
 }
+
 .section-missao {
   display: flex;
   flex-direction: column;
@@ -183,9 +209,10 @@ a.nav-link.active{
   color: var(--color-text);
   text-align: justify;
   background-color: var(--background--);
-   height: 35rem;
+  height: 35rem;
   flex: 1;
 }
+
 .missao #carouselExampleSlidesOnly img {
   height: 30rem;
 }
@@ -195,6 +222,7 @@ a.nav-link.active{
   font-weight: 600;
   padding: 2rem;
 }
+
 .trabalho {
   display: flex;
   justify-content: space-between;
@@ -205,6 +233,7 @@ a.nav-link.active{
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .trabalho>div {
   flex: 1;
   display: flex;
@@ -214,6 +243,7 @@ a.nav-link.active{
   padding: 20px;
   height: 35rem;
 }
+
 .section-trabalho {
   display: flex;
   flex-direction: column;
@@ -223,9 +253,10 @@ a.nav-link.active{
   color: var(--color-text);
   text-align: justify;
   background-color: var(--background--);
-   height: 35rem;
+  height: 35rem;
   flex: 1;
 }
+
 .trabalho #carouselExampleSlidesOnly img {
   height: 30rem;
 }
@@ -250,13 +281,13 @@ footer {
 
 
 
-#rodape{
+#rodape {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
 
-  
-  
+
+
 
 
 }
@@ -275,12 +306,12 @@ footer ul {
   list-style: none;
 }
 
-footer h4{
+footer h4 {
   font-size: 16px;
 }
 
 
-footer .mensage{
+footer .mensage {
   font-size: 11px;
 }
 
@@ -304,7 +335,7 @@ footer .mensage{
     padding: 10px;
   }
 }
-  
+
 
 @media (max-width: 924px) {
   header {
@@ -348,56 +379,57 @@ footer .mensage{
   }
 
 
-/* Psychedelic background effect */
-.input-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: conic-gradient(from 0deg,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25,
-      #D34A25);
-  animation: rotate 4s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 1;
+  /* Psychedelic background effect */
+  .input-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(from 0deg,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25,
+        #D34A25);
+    animation: rotate 4s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+  .input-wrapper:hover::before,
+  .input-wrapper:focus-within::before {
+    opacity: 1;
+  }
+
+
+  footer {
+    background-color: var(--color-text);
+    color: #fff;
+
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: var(--color-hover);
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
 }
 
-.input-wrapper:hover::before,
-.input-wrapper:focus-within::before {
-  opacity: 1;
-}
-
-
-footer {
-  background-color: var(--color-text);
-  color: #fff;
-
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: var(--color-hover);
-}
-
-footer ul {
-  list-style: none;
-}
-
-}
 /* Responsividade para dispositivos grandes */
 @media (max-width: 1200px) {
   header {
@@ -408,9 +440,9 @@ footer ul {
     padding-right: 5%;
     align-items: center;
     padding-bottom: 40px;
-  
-  
-  
+
+
+
     position: sticky;
     top: 0px;
     transition: background-color 0.3s, color 0.3s;
@@ -422,9 +454,20 @@ footer ul {
 
   }
 
+
+  .header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+
+
+
   .doacao {
-   padding-left: 5%;
-   padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .doacao,
@@ -475,8 +518,8 @@ footer ul {
     padding-right: 5%;
     align-items: center;
     padding-bottom: 40px;
-  
-  
+
+
     position: sticky;
     top: 0px;
     transition: background-color 0.3s, color 0.3s;
@@ -485,13 +528,34 @@ footer ul {
     height: 2.5rem;
     padding-top: 0.5rem;
     height: auto;
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
   }
+
+
+
+
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
+  }
+
+
 
 
   .hamburger-menu {
@@ -563,11 +627,11 @@ footer ul {
     font-size: 0.8rem;
   }
 }
- 
+
 
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
-/*   header {
+  /*   header {
     padding: 20px;
   } */
 
@@ -580,7 +644,7 @@ footer ul {
     padding: 10px;
   }
 
-  .carousel-inner{
+  .carousel-inner {
     height: 15rem;
   }
 
@@ -607,13 +671,3 @@ footer ul {
     font-size: 0.8rem;
   }
 }
-
-
-
-
-
-
-
-
-
-

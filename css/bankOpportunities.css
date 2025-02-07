@@ -25,10 +25,12 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-    align-items: center;
+    /*   align-items: center;
+   */
+
     padding-bottom: 40px;
 
 
@@ -38,12 +40,26 @@ header {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+
+
+}
 
 
 
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
+.navbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
 
 }
 
@@ -163,16 +179,17 @@ a.nav-link.active {
     /* cor ddo cursor */
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding-left: 8px; /* Garante espaço para o ícone */
+    padding-left: 8px;
+    /* Garante espaço para o ícone */
 
-    
+
 
 }
 
 
 ::placeholder {
     padding: 2px;
-}  
+}
 
 .labelforsearch {
     cursor: text;
@@ -225,7 +242,7 @@ main {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -253,7 +270,7 @@ p.name-enterprise {
     background: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    
+
 }
 
 .job-card-head {
@@ -264,7 +281,7 @@ p.name-enterprise {
 .job-card-head img {
     width: 100%;
     height: 350px;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 .text-title {
@@ -336,7 +353,8 @@ p.name-enterprise {
 .card-btn {
     border: none;
     font-size: 1rem;
-    background-color: #007bff; /* Azul padrão */
+    background-color: #007bff;
+    /* Azul padrão */
     color: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -352,13 +370,13 @@ p.name-enterprise {
 
 
 
-.btn-primary{
+.btn-primary {
     --bs-btn-bg: var(--color-text) !important;
     --bs-btn-border-color: var(--color-text) !important;
 }
 
 
-.modal-content{
+.modal-content {
     margin-top: 15rem;
     z-index: 9999999999999999;
 }
@@ -369,7 +387,7 @@ p.name-enterprise {
 
 
 
- /* estilização para pagiinação */
+/* estilização para pagiinação */
 
 
 .page-link {
@@ -704,43 +722,43 @@ h4 {
 footer {
     background-color: var(--color-text);
     color: #fff;
-  
-  }
-  
-  #rodape{
+
+}
+
+#rodape {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
 
-    
-    
-  
-  
-  }
-  
-  footer a {
+
+
+
+
+}
+
+footer a {
     color: #fff;
     text-decoration: none;
     font-size: 11px;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     color: var(--color-hover);
-  }
-  
-  footer ul {
+}
+
+footer ul {
     list-style: none;
-  }
-  
-  footer h4{
+}
+
+footer h4 {
     font-size: 16px;
-  }
-  
-  
-  footer .mensage{
+}
+
+
+footer .mensage {
     font-size: 11px;
-  }
-  
+}
+
 
 @media(max-width: 2560px) {
     .bg-body-secondary {
@@ -791,7 +809,19 @@ footer {
 
     }
 
-    main{
+
+    .header-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+
+
+    main {
         padding-left: 6%;
         padding-right: 6%;
     }
@@ -809,10 +839,10 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    main{
+    main {
         padding-left: 6%;
         padding-right: 6%;
-        
+
     }
 }
 
@@ -850,12 +880,39 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999;
         height: 2.5rem;
-/*         padding-top: 4rem; */ 
-       padding-bottom: 9rem;
+        /*         padding-top: 4rem; */
+        padding-bottom: 9rem;
 
 
 
     }
+
+
+
+
+    .header-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+
+    }
+
+
+
+
+
+
+
+
 
 
     .hamburger-menu {
@@ -883,11 +940,11 @@ footer {
     .job-card-head img {
         width: 100%;
         height: 250px;
-        border-radius: 8px; 
+        border-radius: 8px;
     }
 
 
-    .modal-content{
+    .modal-content {
         z-index: 99999999999;
     }
 
@@ -913,7 +970,7 @@ footer {
 /* Responsividade para smartphones */
 @media (max-width: 480px) {
     header {
-/*         padding: 20px;
+        /*         padding: 20px;
  */
 
         position: sticky;
@@ -922,12 +979,12 @@ footer {
         background-color: rgb(255, 255, 255);
         z-index: 9999999;
         height: 2.5rem;
-/*         padding-top: 4rem; */ 
-       padding-bottom: 9rem;
+        /*         padding-top: 4rem; */
+        padding-bottom: 9rem;
 
     }
 
-    main{
+    main {
         padding-left: 6%;
         padding-right: 6%;
     }
