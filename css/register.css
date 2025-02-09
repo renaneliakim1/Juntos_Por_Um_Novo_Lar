@@ -17,10 +17,6 @@
     --background--: #F4F4F4;
 }
 
-/* body {
-  padding-left: 5%;
-  padding-right: 5%;
-} */
 
 
 header {
@@ -29,8 +25,7 @@ header {
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-    /*   align-items: center;
-   */
+
 
     padding-bottom: 40px;
 
