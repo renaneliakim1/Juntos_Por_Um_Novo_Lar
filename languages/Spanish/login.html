@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Acceso</title>
     <link rel="shortcut icon" href="/assests/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="/css/login.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -17,55 +17,63 @@
 <body>
     <header>
 
-        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" title="Juntos Por Um Novo Lar"
-                alt="Logo do Juntos Por Um Novo Lar" src="/assests/logobr.svg" alt=""></a>
+        <div class="header-logo">
+
+            <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logoes.svg"
+                    title="Juntos por un nuevo hogar" alt="Logotipo de Juntos por un Nuevo Hogar
+                    ">
+            </a>
+
+            <button id="menu-toggle" class="hamburger-menu">
+                ☰
+            </button>
+
+            <div class="buttons">
+                <a href="/login.html"><img src="/assests/bandeira-do-brasil.svg" style="height: 30px; width: 30px;" alt=""></a>
 
 
 
-        <button id="menu-toggle" class="hamburger-menu">
-            ☰
-        </button>
-
-        <ul class="nav nav-tabs" id="nav-menu">
-
-
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Início</a>
-            </li>
+             <!--    <a href="/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
+                        alt="para entrar ">para entrar</button></a> -->
+                <a href="/register.html"><button type="button" class="btn btn-dark" title=" Cadastrar"
+                        alt="Registro">Registro</button></a>
 
 
+            </div>
+        </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/bankOpportunities.html">Banco de Oportunidades</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/educationCareers.html">Educação e Carreira</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/news.html">Notícias</a>
-            </li>
+        <div class="navbar">
+            <ul class="nav nav-tabs" id="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/index.html">Comenzar</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/aboutUs.html">Sobre nós</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/faq.html">FAQ</a>
-            </li>
-        </ul>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/bankOpportunities.html">Banco de Oportunidades</a>
+                </li>
 
-        <div class="buttons">
-          <!--   <a href=""><button type="button" class="btn btn-dark" title=" Doar" alt="Doar">Doar</button></a> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/educationCareers.html">Educación y carrera </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/news.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/aboutUs.html">Sobre nosotro</a>
+                </li>
 
-            <a href="/register.html"><button type="button" class="btn btn-dark" title=" Cadastrar"
-                    alt="Cadastrar">Cadastrar</button></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/faq.html">FAQ</a>
+                </li>
+
+            </ul>
         </div>
     </header>
     <main>
         <form class="form">
-            <h1>Login</h1>
+            <h1>Acceso</h1>
             <div class="inputForm">
                 <svg class="icon" height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
                     <g id="Layer_3" data-name="Layer 3">
@@ -86,23 +94,28 @@
                     </path>
                 </svg>
                 <div class="input-container">
-                    <input type="password" id="password" class="input" placeholder="Senha">
+                    <input type="password" id="password" class="input" placeholder="Contraseña">
                 </div>
             </div>
             <div class="flex-row">
                 <div>
                     <input type="checkbox">
-                    <label>Manter-me conectado</label>
+                    <label>mantenme conectado</label>
                 </div>
                 <div>
                     <input type="checkbox" id="togglePasswordCheckbox">
-                    <label for="togglePasswordCheckbox">Mostrar senha</label>
+                    <label for="togglePasswordCheckbox">Mostrar contraseña</label>
                 </div>
             </div>
-            <button class="button-submit" alt="Entrar na sua Conta" title="Entrar na sua Conta">Entrar</button>
-            <span class="span">Esqueci minha senha</span>
+
+
+            <a href="/languages/Spanish/user.html"><button class="button-submit" alt="Entrar na sua Conta" title="Entrar na sua Conta">Para entrar</button></a>
+
+
+
+            <span class="span">Olvidé mi contraseña</span>
             </p>
-            <p class="p line">Entrar com</p>
+            <p class="p line">Inicia sesión con</p>
             <div class="flex-row">
                 <button class="btn google" alt="Logar com o Google" title="Logar com o Google">
                     <svg version="1.1" width="20" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +155,7 @@
                     Apple
                 </button>
             </div>
-            <p class="p">Não tem conta? <a href="/register.html"><span class="span">Cadastre-se</span></a>
+            <p class="p">¿No tienes una cuenta? <a href="/register.html"><span class="span">Registro</span></a>
         </form>
     </main>
     <footer>
@@ -155,7 +168,7 @@
             <div class="row" id="footer-element">
 
                 <div class="col">
-                    <img src="/assests/logobr.svg" alt="" id="logo">
+                    <img src="/assests/logoes.svg" alt="" id="logo">
                 </div>
 
 
@@ -175,7 +188,7 @@
                 </div> -->
 
                 <div class="col" id="contatos">
-                    <h4>CONTATOS</h4>
+                    <h4>CONTACTOS</h4>
 
                     <div class="social-media">
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -207,7 +220,8 @@
                     </ul>
                 </div>
 
-                <p class="mensage">2025. ©.JUNTOS POR UM NOVO LAR. TODOS OS DIREITOS RESERVADOS.</p>
+                <p class="mensage">2025. ©.JUNTOS POR UN NUEVO HOGAR. RESERVADOS TODOS LOS DERECHOS.
+                </p>
             </div>
 
         </div>

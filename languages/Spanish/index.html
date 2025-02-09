@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
+    <title>Comenzar</title>
     <link rel="shortcut icon" href="/assests/favicon.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="/css/index.css">
@@ -21,53 +21,65 @@
 
 <body>
     <header>
+        <div class="header-logo">
+
+            <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logoes.svg"
+                    title="Juntos por un nuevo hogar" alt="Logotipo de Juntos por un Nuevo Hogar
+                    ">
+            </a>
+
+            <button id="menu-toggle" class="hamburger-menu">
+                ☰
+            </button>
+
+            <div class="buttons">
+                <a href="/index.html"><img src="/assests/bandeira-do-brasil.svg" style="height: 30px; width: 30px;" alt=""></a>
 
 
-        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logobr.svg"
-                title="Juntos Por Um Novo Lar" alt="Logo do Juntos Por Um Novo Lar"></a>
+
+                <a href="/languages/Spanish/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
+                    alt="para entrar ">para entrar</button></a>
+            <a href="/languages/Spanish/register.html"><button type="button" class="btn btn-dark" title=" Cadastrar"
+                    alt="Registro">Registro</button></a>
+
+            </div>
+        </div>
 
 
-
-        <button id="menu-toggle" class="hamburger-menu">
-            ☰
-        </button>
-
-        <ul class="nav nav-tabs" id="nav-menu">
-
+        <div class="navbar">
+            <ul class="nav nav-tabs" id="nav-menu">
+             <!--    <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/index.html">Comenzar</a>
+                </li> -->
 
 
-            <li class="nav-item">
-                <a class="nav-link" href="/bankOpportunities.html">Banco de Oportunidades</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/bankOpportunities.html">Banco de Oportunidades</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/educationCareers.html">Educação e Carreira</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/news.html">Notícias</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/educationCareers.html">Educación y carrera </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/news.html">Noticias</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/aboutUs.html">Sobre nós</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/aboutUs.html">Sobre nosotro</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/faq.html">FAQ</a>
-            </li>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/faq.html">FAQ</a>
+                </li>
 
-        <div class="buttons">
-            <!--   <a href=""><button type="button" class="btn btn-dark" title=" Doar" alt="Doar">Doar</button></a> -->
-            <a href="/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
-                    alt="Entrar">Entrar</button></a>
-            <a href="/register.html"><button type="button" class="btn btn-dark" title=" Cadastrar"
-                    alt="Cadastrar">Cadastrar</button></a>
+            </ul>
         </div>
     </header>
 
 
     <div class="InputContainer">
-        <input type="text" name="text" class="input" id="input" placeholder="Empregos, cursos, noticias, voluntários...">
+        <input type="text" name="text" class="input" id="input"
+            placeholder="Empleos, cursos, noticias, voluntarios...">
 
         <label for="input" class="labelforsearch">
             <svg viewBox="0 0 512 512" class="searchIcon">
@@ -95,8 +107,9 @@
         <div class="container py-4">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start" id="carousel-text">
-                    <h1>Todos por um novo lar</h1>
-                    <p class="texto-apresentacao">Aqui você encontra vagas de emprego e Educação.</p>
+                    <h1>Todo por un nuevo hogar</h1>
+                    <p class="texto-apresentacao">Aquí encontrará vacantes laborales y educativas.
+                    </p>
 
                 </div>
                 <div class="col-md-6">
@@ -105,12 +118,12 @@
 
                             <!-- Slide 1 -->
                             <div class="carousel-item active"
-                                data-text="<h1>Ajude a transformar vidas</h1><p>As doações são gestos de solidariedade que transformam vidas e fortalecem comunidades. Elas podem ser feitas em forma de alimentos, roupas, ou até mesmo tempo e conhecimento. Cada contribuição, por menor que pareça, pode fazer uma grande diferença para quem está em situação de vulnerabilidade. Doar é um ato de empatia que promove esperança e mudanças positivas.</p>">
+                                data-text="<h1>Ayude a transformar vidas</h1><p>Las donaciones son gestos de solidaridad que transforman vidas y fortalecen comunidades. Pueden ser en forma de comida, ropa o incluso tiempo y conocimiento. Cada contribución, por pequeña que parezca, puede marcar una gran diferencia para quienes se encuentran en situaciones vulnerables. Donar es un acto de empatía que promueve la esperanza y el cambio positivo.</p>">
 
 
                                 <img src="https://img.freepik.com/fotos-gratis/mendigos-sentados-debaixo-da-ponte-com-um-sinal-ajudem-por-favor_1150-22941.jpg?t=st=1737505312~exp=1737508912~hmac=6fb1b8bb2d7ec638d72d6fc5e1ee7512ee36756e0a2459c3ed2387ee959526a0&w=740"
-                                    class="d-block w-100" alt="Mendigos sentados sob uma ponte"
-                                    title="Mendigos sentados sob uma ponte">
+                                    class="d-block w-100" alt="Mendigos sentados bajo un puente"
+                                    title="Mendigos sentados bajo un puente">
 
 
 
@@ -122,19 +135,20 @@
 
                             <!-- Slide 2 -->
                             <div class="carousel-item"
-                                data-text="<h1>Solidariedade importa</h1><p> A solidariedade importa porque nos conecta como seres humanos, criando uma rede de apoio e cuidado mútuo. É através dela que compartilhamos recursos, tempo e empatia, ajudando aqueles que enfrentam dificuldades. </p>">
+                                data-text="<h1>La solidaridad importa</h1><p>La solidaridad importa porque nos conecta como seres humanos, creando una red de apoyo y cuidado mutuo. Es a través de él que compartimos recursos, tiempo y empatía, ayudando a quienes enfrentan dificultades. </p>">
                                 <img src="https://i3.wp.com/adus.org.br/wp-content/uploads/2023/10/solidariedade.png"
-                                    class="d-block w-100" alt="aperto de mãos coletivo" title="aperto de mãos coletivo">
+                                    class="d-block w-100" alt="apretón de manos colectivo"
+                                    title="apretón de manos colectivo">
 
 
 
                             </div>
                             <!-- Slide 3 -->
                             <div class="carousel-item"
-                                data-text="<h1>Empregos</h1><p>Consulte vagas ou cadastre uma vaga em nosso Banco de Oportunidades.</p>">
+                                data-text="<h1>Empleos</h1><p>Consulta vacantes o registra una vacante en nuestro Banco de Oportunidades.</p>">
                                 <img src="https://media.istockphoto.com/id/1394701218/pt/foto/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=Gj2R5Yz8M04NMjXBComA1qZ3SrJsZgBAqbZInm1o4c4="
-                                    class="d-block w-100" alt="Médico ajudando um paciente"
-                                    titile="Médico ajudando um paciente">
+                                    class="d-block w-100" alt="Doctor ayudando a un paciente"
+                                    titile="Doctor ayudando a un paciente">
 
 
                             </div>
@@ -160,34 +174,36 @@
 
     <main>
 
-        <h4 class="works-fundo-h4"><strong>Emprego</strong></h4>
+        <h4 class="works-fundo-h4"><strong>Trabajo</strong></h4>
 
 
         <div class="row g-0 bg-body-secondary position-relative" id="work">
             <div class="col-md-6 mb-md-0 p-md-4">
                 <img src="https://tm.ibxk.com.br/2024/04/23/23165209830076.jpg" class="w-100"
-                    alt="Trabalho em tecnologia" title="Trabalho em tecnologia">
+                    alt="trabajar en tecnologia" title="trabajar en tecnologia">
             </div>
             <div class="col-md-6 p-4 ps-md-0"
-                title="Empresas de tecnologia estão oferecendo vagas exclusivas para refugiados com conhecimentos básicos em programação. Participantes também terão acesso a cursos gratuitos para aprimorar suas habilidades.">
-                <h5 class="mt-0">Programa de Inclusão no Setor de Tecnologia</h5>
-                <p>Empresas de tecnologia estão oferecendo vagas exclusivas para refugiados com conhecimentos básicos em
-                    programação... </p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+                title="Las empresas de tecnología ofrecen vacantes exclusivas para refugiados con conocimientos básicos de programación. Los participantes también tendrán acceso a cursos gratuitos para mejorar sus habilidades.">
+                <h5 class="mt-0">Programa de Inclusión del Sector Tecnológico</h5>
+                <p>Empresas tecnológicas ofrecen vacantes exclusivas para refugiados con conocimientos básicos en
+                    cronograma... </p>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4">
                 <img src="https://construchemical.com/img/posts/rfilemanager/construcao-civil.jpg" class="w-100"
-                    alt="Trabalho em Construção Civil" title="Trabalho em Construção Civil">
+                    alt="Trabajo en Construcción Civil" title="Trabajo en Construcción Civil">
             </div>
             <div class="col-md-6 p-4 ps-md-0"
-                title="Empresas de construção civil em diversas cidades estão contratando pedreiros, serventes e auxiliares de obra. Refugiados podem se candidatar sem exigência de experiência prévia.">
-                <h5 class="mt-0">Oportunidades no Setor de Construção Civil</h5>
-                <p>Empresas de construção civil em diversas cidades estão contratando pedreiros, serventes e auxiliares
-                    de obra...</p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+                title="Empresas constructoras de varias ciudades están contratando albañiles, sirvientes y ayudantes de construcción. Los refugiados pueden postularse sin necesidad de experiencia previa.">
+                <h5 class="mt-0">Oportunidades en el Sector de la Construcción Civil</h5>
+                <p>Empresas constructoras de varias ciudades contratan albañiles, sirvientes y ayudantes
+                    de trabajo...</p>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
@@ -195,38 +211,43 @@
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4">
                 <img src="https://www.pensarcursos.com.br/blog/wp-content/uploads/2024/10/2149300643-750x430.jpg"
-                    class="w-100" alt="Auxiliar Administrativo" title="Auxiliar Administrativo">
+                    class="w-100" alt="Ayudante Administrativo" title="Ayudante Administrativo">
             </div>
-            <div class="col-md-6 p-4 ps-md-0" title="Empresas locais estão recrutando refugiados para atuar como auxiliares administrativos.
-            Habilidades como organização e noções de informática são diferenciais. ">
-                <h5 class="mt-0">Vagas para Auxiliar Administrativo</h5>
-                <p>Empresas locais estão recrutando refugiados para atuar como auxiliares administrativos.
-                    Habilidades como organização...</p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+            <div class="col-md-6 p-4 ps-md-0" title="Las empresas locales están reclutando refugiados para que sirvan como asistentes administrativos.
+            Habilidades como la organización y el manejo de computadoras son diferenciadores. ">
+                <h5 class="mt-0">Vacantes para Asistente Administrativo</h5>
+                <p>Las empresas locales están reclutando refugiados para que sirvan como asistentes administrativos.
+                    Habilidades como organización...</p>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
 
         <div class="maisOportunidades">
 
-            <a href="/bankOpportunities.html"><button type="button" class="btn btn-dark" alt="Mais Oportunidades"
-                    title="Mais Oportunidades">Mais Oportunidades</button></a>
+            <a href="/bankOpportunities.html"><button type="button" class="btn btn-dark" alt="Más oportunidades"
+                    title="Más oportunidades">Más oportunidades</button></a>
         </div>
         <br>
-        <h4 class="education-fundo-h4"><strong>Educação</strong></h4>
+        <h4 class="education-fundo-h4"><strong>Educación</strong></h4>
 
 
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4">
                 <img src="https://costurando.andhep.org.br/wp-content/uploads/2024/07/costureira-usando-maquina-de-costura.jpg"
-                    class="w-100" alt="Curso de Corte e Costura para Iniciantes"
-                    title="Curso de Corte e Costura para Iniciantes">
+                    class="w-100" alt="Curso de corte y costura para principiantes"
+                    title="Curso de corte y costura para principiantes">
             </div>
-            <div class="col-md-6 p-4 ps-md-0" title="Aprenda técnicas básicas de corte e costura com trutores experientes. Este curso gratuito é ideal para refugiados interessados em ingressar no mercado de moda ou abrir o próprio negócio.">
-                <h5 class="mt-0">Curso de Corte e Costura para Iniciantes</h5>
-                <p>Aprenda técnicas básicas de corte e costura com instrutores experientes. Este curso gratuito é ideal para refugiados interessados...
+            <div class="col-md-6 p-4 ps-md-0"
+                title="Aprenda técnicas básicas de corte y costura de sastres experimentados. Este curso gratuito es ideal para refugiados interesados ​​en ingresar al mercado de la moda o abrir su propio negocio.">
+                <h5 class="mt-0">Curso de corte y costura para principiantes</h5>
+                <p>Aprenda técnicas básicas de corte y costura con instructores experimentados. Este curso gratuito es
+                    ideal.
+                    para refugiados interesados...
                 </p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
@@ -234,14 +255,19 @@
         <div class="row g-0 bg-body-secondary position-relative">
             <div class="col-md-6 mb-md-0 p-md-4" title="">
                 <img src="https://folhaserra.com.br/wp-content/uploads/sites/10/2023/08/792fa306-5486-421c-aa3c-fce695fd17df.jpg"
-                    class="w-100" alt="Curso de Informática Básica" title="Curso de Informática Básica">
+                    class="w-100" alt="Curso Básico de Computación
+" title="Curso Básico de Computación
+">
             </div>
             <div class="col-md-6 p-4 ps-md-0"
-                title="Desenvolva habilidades em informática, como uso de editores de texto, planilhas e navegação na nternet. Este curso é voltado para quem deseja aprimorar suas competências digitais.">
-                <h5 class="mt-0">Curso de Informática Básica</h5>
-                <p>Desenvolva habilidades em informática, como uso de editores de texto, planilhas e navegação na
-                    internet. Este curso é voltado para quem...</p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+                title="Desarrollar habilidades informáticas, como el uso de editores de texto, hojas de cálculo y navegación por Internet. Este curso está dirigido a aquellos que quieran mejorar sus habilidades digitales.">
+                <h5 class="mt-0">Curso Básico de Computación
+                </h5>
+                <p>Desarrollar habilidades informáticas, como el uso de editores de texto, hojas de cálculo y
+                    navegación.
+                    Internet. Este curso está dirigido a aquellas personas que...</p>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
@@ -250,26 +276,28 @@
                 <img src="https://maxicuiaba.com.br/wp-content/uploads/2022/08/pintura-em-tela.jpg" class="w-100"
                     alt="Curso de Pintura Residencial" title="Curso de Pintura Residencial">
             </div>
-            <div class="col-md-6 p-4 ps-md-0" title="Aprenda técnicas práticas para pintura de ambientes internos e externos. Este curso é uma
-            ótima
-            oportunidade para quem deseja ingressar no setor de construção civil...">
+            <div class="col-md-6 p-4 ps-md-0" title="Aprende técnicas prácticas para pintar ambientes interiores y exteriores. Este curso es un
+            excelente
+            oportunidad para quienes quieran ingresar al sector de la construcción...">
                 <h5 class="mt-0">Curso de Pintura Residencial</h5>
-                <p>Aprenda técnicas práticas para pintura de ambientes internos e externos. Este curso é uma ótima oportunidade para quem deseja ingressar no setor de construção civil...</p>
-                <a href="#" class="stretched-link">Saiba mais</a>
+                <p>Aprende técnicas prácticas para pintar ambientes interiores y exteriores. Este curso es un gran
+                    oportunidad para quienes quieran ingresar al sector de la construcción...</p>
+                <a href="#" class="stretched-link">Descubra más
+                </a>
             </div>
         </div>
 
 
         <div class="maisEducacao">
-            <a href=""><button type="button" class="btn btn-dark" alt="Mais Educação" title="Mais Educação">Mais
-                    Educação</button></a>
+            <a href=""><button type="button" class="btn btn-dark" alt="Mais Educação" title="Mais Educação">Más
+                    Educación </button></a>
         </div>
 
     </main>
 
     <br>
 
-    <h4 class="noticias-fundo-h4"><strong>Últimas notícias</strong></h4>
+    <h4 class="noticias-fundo-h4"><strong>Últimas noticias</strong></h4>
 
 
     <div class="noticias-fundo">
@@ -278,53 +306,51 @@
 
             <div class="card-noticias">
                 <img src="https://www.cnj.jus.br/wp-content/uploads/2023/01/categoria-advocacia-as-advogadas-denise-abreu-cavalcanti-e-andreia-freitas-vallandro-durante-atendimento-foto-divulgacao-premio-innovare-roberto-teixeira.jpg"
-                    class="card-img-top" alt="Reunião de Apoio Jurídico" title="Reunião de Apoio Jurídico">
+                    class="card-img-top" alt="Reunión de soporte legal" title="Reunión de soporte legal">
                 <div class="card-body">
                     <h5 class="card-title">Refugiados</h5>
-                    <p class="card-text">Iniciativa Comunitária Oferece Suporte Jurídico e Social para Refugiados...
+                    <p class="card-text">Iniciativa comunitaria brinda apoyo legal y social a refugiados...
                     </p>
-                    <a href=""><button type="button" class="btn btn-dark" alt="Ler matéria" title="Ler matéria">Ler
-                            matéria</button></a>
+                    <a href=""><button type="button" class="btn btn-dark" alt="Leer artículo" title="Leer artículo">Leer artículo
+                    </button></a>
                 </div>
             </div>
 
             <div class="card-noticias">
                 <img src="https://globalattitude.org.br/wp-content/uploads/2023/03/refugiados.jpg" class="card-img-top"
-                    alt="Refugiados mostram a carteira de trabalho" title="Refugiados mostram a carteira de trabalho">
+                    alt="Los refugiados muestran su tarjeta de trabajo" title="Los refugiados muestran su tarjeta de trabajo">
                 <div class="card-body">
-                    <h5 class="card-title">Emprego</h5>
-                    <p class="card-text">Empresa Local Contrata Refugiados para Programa de Capacitação...
+                    <h5 class="card-title">Trabajo</h5>
+                    <p class="card-text">Empresa local contrata refugiados para programa de formación...
                     </p>
-                    <a href=""><button type="button" class="btn btn-dark" alt="Ler matéria" title="Ler matéria">Ler
-                            matéria</button></a>
+                    <a href=""><button type="button" class="btn btn-dark" alt="Leer artículo" title="Leer artículo">Leer artículo</button></a>
                 </div>
             </div>
 
             <div class="card-noticias">
                 <img src="https://estourefugiado.org.br/wp-content/uploads/2022/11/ARA_8589-1024x763.jpg"
-                    class="card-img-top" alt="Arrecardação de Mantimentos" title="Arrecardação de Mantimentos">
+                    class="card-img-top" alt="Colección de suministros" title="Colección de suministros">
                 <div class="card-body">
-                    <h5 class="card-title">Projetos Sociais</h5>
-                    <p class="card-text">Projeto Solidário Arrecada Doações para Refugiados em Situação...
+                    <h5 class="card-title">Proyectos Sociales</h5>
+                    <p class="card-text">Proyecto Solidario recauda donaciones para refugiados en...
                     </p>
-                    <a href=""><button type="button" class="btn btn-dark" alt="Ler matéria" title="Ler matéria">Ler
-                            matéria</button></a>
+                    <a href=""><button type="button" class="btn btn-dark" alt="Leer artículo" title="Leer artículo">Leer artículo</button></a>
                 </div>
             </div>
         </section>
     </div>
     <br>
 
-    <h4><strong>Depoimentos</strong></h4>
+    <h4><strong>Testimonios</strong></h4>
 
     <section class="depoimentos">
 
 
 
         <div class="depoimento-body">
-            <p>"Eles me ajudaram a conseguir um abrigo e, pouco depois, um curso de capacitação em mecânica. Hoje
-                trabalho em uma oficina e finalmente posso sustentar minha família. Muad foi a luz em um momento de
-                escuridão."</p>
+            <p>"Me ayudaron a conseguir un refugio y, poco después, un curso de formación mecánica. Hoy
+                Trabajo en un taller y por fin puedo mantener a mi familia. Muad fue la luz en un momento de
+                oscuridad."</p>
             <div class="depoimento-body-detalhes">
 
                 <img src="https://cdn.pixabay.com/photo/2016/12/05/22/57/smile-1885144_640.jpg" alt="">
@@ -336,8 +362,8 @@
 
 
         <div class="depoimento-body">
-            <p>"Através deles, consegui uma bolsa de estudos e apoio para aprender o idioma local. Agora, estou na
-                universidade, e tudo isso só foi possível graças à dedicação das pessoas que me ajudaram."</p>
+            <p>"A través de ellos obtuve una beca y apoyo para aprender el idioma local. Ahora estoy en
+                universidad, y todo esto sólo fue posible gracias a la dedicación de las personas que me ayudaron."</p>
             <div class="depoimento-body-detalhes">
 
                 <img src="https://img.freepik.com/fotos-gratis/uma-garota-com-um-sorriso-positivo_53876-144770.jpg"
@@ -353,17 +379,16 @@
 
 
 
-
     <div class="newsletter ">
-        <p>Assine nossa newsletter e receba no seu email notícias e avisos em primeira mão!</p>
+        <p>¡Suscríbete a nuestra newsletter y recibe noticias y avisos de primera mano en tu correo electrónico!</p>
         <div class="input-wrapper">
-            <input class="input" name="text" placeholder="exemplo@.com" type="text" />
+            <input class="input" name="text" placeholder="ejemplo@.com" type="text" />
         </div>
-        <div id="emailHelp" class="form-text">Você receberá e-mails relacionados a refugiados. Para mais
-            informações, consulte as <a href=""><strong class="politicasDePrivacidade">políticas de
-                    privacidade.</strong></a>
+        <div id="emailHelp" class="form-text">Recibirá correos electrónicos relacionados con los refugiados. Para más
+            información, consulte las <a href=""><strong class="politicasDePrivacidade">políticas de privacidad</strong></a>
         </div>
-        <button type="button" class="btn btn-dark" id="liveToastBtn" alt="Assinar" title="Assinar">Assinar</button>
+        <button type="button" class="btn btn-dark" id="liveToastBtn" alt="Assinar Newsletter "
+            title="Assinar Newsletter">para firmar</button>
     </div>
 
 
@@ -380,11 +405,10 @@
                 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
             <div class="toast-body">
-                <p>newsletter assinada com sucesso!</p>
+                <p>boletín suscrito exitosamente!</p>
             </div>
         </div>
     </div>
-
 
     <script>
         const toastTrigger = document.getElementById('liveToastBtn')
@@ -402,7 +426,7 @@
 
 
 
-    <h4><strong>Parceiros</strong></h4>
+    <h4><strong>Fogonadura</strong></h4>
 
 
     <div class="partners">
@@ -411,36 +435,36 @@
                 <img src="/assests/accenture.png" alt="Accenture" title="Accenture" />
                 <img src="/assests/b3Social.png" alt="B3 Social" title="B3 Social" />
                 <img src="/assests/bemMaior.png" alt="Bem Maior" title="Bem Maior" />
-                <img src="assests/bgt.png" alt="BTG" title="BTG">
-                <img src="assests/cashMe.png" alt="" title="">
-                <img src="assests/catalyst2030.png" alt="CashMe" title="CashMe">
-                <img src="assests/cnh.png" alt="CNH" title="CNH">
-                <img src="assests/cyrella.png" alt="Cyrella" title="Cyrella">
-                <img src="assests/deloitte.png" alt="Deloitte" title="Deloitte">
-                <img src="assests/eletrobas.png" alt="Eletrobas" title="Eletrobas">
-                <img src="assests/engie.png" alt="Engie" title="Engie">
-                <img src="assests/erq.png" alt="ERQ" title="ERQ">
-                <img src="assests/globo.png" alt="Globo" title="Globo">
-                <img src="assests/herda-gerdau.png" alt="Helda gerdau" title="Helda Gerdau">
-                <img src="assests/insituto-localiza.png" alt="Insituto Localiza" title="Insituto Localiza">
-                <img src="assests/instituto-alok.png" alt="Instituto Alok" title="Instituto Alok">
-                <img src="assests/instituto-E.png" alt="Instituto E" title="Instituto E">
-                <img src="assests/instituto-equatorial.png" alt="Instituto Equatorial" title=" Instituto Equatorial">
-                <img src="assests/jalles.png" alt="Jalles" title="Jalles">
-                <img src="assests/lenovo.png" alt="Lenovo" title="Lenovo">
-                <img src="assests/lorel.png" alt="Lorel" title="Lorel">
-                <img src="assests/made.png" alt="Made" title="Made">
-                <img src="assests/michaelPage.png" alt="MichaelPage" title="MichaelPage">
-                <img src="assests/microsoft.png" alt="Microsoft" title="Microsoft">
-                <img src="assests/petrobras.png" alt="Petrobras" title="Petrobras">
-                <img src="assests/phi.png" alt="PHI" title="PHI">
-                <img src="assests/pluxee.png" alt="Pluxee" title="Pluxee">
-                <img src="assests/reurbi.png" alt="ReUrbi" title="ReUrbi">
-                <img src="assests/santander.png" alt="Santander" title="Santander">
-                <img src="assests/shell.png" alt="Shell" title="Shell">
-                <img src="assests/silence.png" alt="Silence" title="Silence">
-                <img src="assests/skoll.png" alt="Skoll" title="Skoll">
-                <img src="assests/tide-setubal.png" alt="Tide Setubal" title="Tide Setubal">
+                <img src="/assests/bgt.png" alt="BTG" title="BTG">
+                <img src="/assests/cashMe.png" alt="" title="">
+                <img src="/assests/catalyst2030.png" alt="CashMe" title="CashMe">
+                <img src="/assests/cnh.png" alt="CNH" title="CNH">
+                <img src="/assests/cyrella.png" alt="Cyrella" title="Cyrella">
+                <img src="/assests/deloitte.png" alt="Deloitte" title="Deloitte">
+                <img src="/assests/eletrobas.png" alt="Eletrobas" title="Eletrobas">
+                <img src="/assests/engie.png" alt="Engie" title="Engie">
+                <img src="/assests/erq.png" alt="ERQ" title="ERQ">
+                <img src="/assests/globo.png" alt="Globo" title="Globo">
+                <img src="/assests/herda-gerdau.png" alt="Helda gerdau" title="Helda Gerdau">
+                <img src="/assests/insituto-localiza.png" alt="Insituto Localiza" title="Insituto Localiza">
+                <img src="/assests/instituto-alok.png" alt="Instituto Alok" title="Instituto Alok">
+                <img src="/assests/instituto-E.png" alt="Instituto E" title="Instituto E">
+                <img src="/assests/instituto-equatorial.png" alt="Instituto Equatorial" title=" Instituto Equatorial">
+                <img src="/assests/jalles.png" alt="Jalles" title="Jalles">
+                <img src="/assests/lenovo.png" alt="Lenovo" title="Lenovo">
+                <img src="/assests/lorel.png" alt="Lorel" title="Lorel">
+                <img src="/assests/made.png" alt="Made" title="Made">
+                <img src="/assests/michaelPage.png" alt="MichaelPage" title="MichaelPage">
+                <img src="/assests/microsoft.png" alt="Microsoft" title="Microsoft">
+                <img src="/assests/petrobras.png" alt="Petrobras" title="Petrobras">
+                <img src="/assests/phi.png" alt="PHI" title="PHI">
+                <img src="/assests/pluxee.png" alt="Pluxee" title="Pluxee">
+                <img src="/assests/reurbi.png" alt="ReUrbi" title="ReUrbi">
+                <img src="/assests/santander.png" alt="Santander" title="Santander">
+                <img src="/assests/shell.png" alt="Shell" title="Shell">
+                <img src="/assests/silence.png" alt="Silence" title="Silence">
+                <img src="/assests/skoll.png" alt="Skoll" title="Skoll">
+                <img src="/assests/tide-setubal.png" alt="Tide Setubal" title="Tide Setubal">
 
 
 
@@ -448,6 +472,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 
@@ -463,7 +489,7 @@
             <div class="row" id="footer-element">
 
                 <div class="col">
-                    <img src="/assests/logobr.svg" alt="" id="logo">
+                    <img src="/assests/logoes.svg" alt="" id="logo">
                 </div>
 
 
@@ -483,7 +509,7 @@
                 </div> -->
 
                 <div class="col" id="contatos">
-                    <h4>CONTATOS</h4>
+                    <h4>CONTACTOS</h4>
 
                     <div class="social-media">
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -515,7 +541,8 @@
                     </ul>
                 </div>
 
-                <p class="mensage">2025. ©.JUNTOS POR UM NOVO LAR. TODOS OS DIREITOS RESERVADOS.</p>
+                <p class="mensage">2025. ©.JUNTOS POR UN NUEVO HOGAR. RESERVADOS TODOS LOS DERECHOS.
+                </p>
             </div>
 
         </div>

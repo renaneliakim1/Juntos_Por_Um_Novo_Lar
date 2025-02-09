@@ -1,0 +1,56 @@
+1.Considerando o desafio escolhido, qual é o problema a ser resolvido e que será contemplado com o projeto final?  
+
+
+Refugiados enfrentam múltiplos desafios ao chegar em um novo país, incluindo barreiras linguísticas, dificuldades na validação de diplomas, falta de rede de contatos e dificuldades financeiras. Um site que conecta refugiados a vagas de emprego e cursos profissionalizantes pode ajudar a resolver esses problemas ao oferecer oportunidades concretas de inserção no mercado de trabalho e capacitação profissional.
+
+
+
+
+2.Qual o público-alvo? A solução poderá ser aplicada a todos, sem restrição de idade ou grau de escolaridade, por exemplo? 
+
+Refugiados, a solução pode ser aplica a varias faixas etarias, escolaridade desde que a pessoa refugiada esteja legalizada.
+
+
+
+
+3.O problema foi escolhido com base em quais dados oficiais? Como vocês identificaram que esse realmente é um problema para o público-alvo? Indique as referências usadas, justificando a sua escolha. 
+
+
+Uma pesquisa realizada pelo ACNUR revelou que, embora 34% dos refugiados no Brasil tenham concluído o ensino superior, 19,5% estão em busca de emprego, e metade dos entrevistados apontou o acesso ao mercado de trabalho como o principal obstáculo para conseguir uma vaga. 
+ACNUR.ORG
+
+Além disso, um estudo conjunto do ACNUR e da Vagas.com indicou que apenas 14,9% dos refugiados no Brasil possuem emprego formal, enquanto 55% estão sem emprego. 
+EXAME.COM
+
+Esses dados demonstram que, apesar de muitos refugiados possuírem qualificações acadêmicas, enfrentam barreiras significativas para inserção no mercado de trabalho formal.
+
+
+
+4.Como esse problema afeta o público-alvo? 
+
+A falta de qualificação pode prejudicar os refugiados de diversas maneiras, principalmente no que diz respeito à integração em novos países e ao acesso a oportunidades de trabalho e uma vida mais estável, impactando no bem-estar psicológico, exclusão social e outros.A capacitação profissional e a educação são fundamentais para mitigar esses desafios e permitir uma melhor integração e qualidade de vida
+
+
+
+
+5.Qual o cronograma das atividades?  
+
+1- Brainstorm
+2- Wireframe produzido no figma 
+3- desenvolvimento front-end
+4- modelagem do banco de dados
+
+
+
+
+
+6.Como será feita a distribuição das atividades entre os integrantes do squad para essa primeira entrega?  
+
+
+
+
+
+7.Qual a ferramenta de gerenciamento de projeto será usada para o monitoramento das atividades? Ex: Trello, Asana, Jira, Monday. Trello
+
+
+Trello

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -23,48 +23,60 @@
 
 <body>
     <header>
-        <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logobr.svg"
-                title="Juntos Por Um Novo Lar" alt="Logo do Juntos Por Um Novo Lar"></a>
+        <div class="header-logo">
+
+            <a class="nav-link active" aria-current="page" href="/index.html"><img id="logo" src="/assests/logoes.svg"
+                    title="Juntos por un nuevo hogar" alt="Logotipo de Juntos por un Nuevo Hogar
+                    ">
+            </a>
+
+            <button id="menu-toggle" class="hamburger-menu">
+                ☰
+            </button>
+
+            <div class="buttons">
+                <a href="/register.html"><img src="/assests/bandeira-do-brasil.svg" style="height: 30px; width: 30px;"
+                        alt=""></a>
 
 
 
-        <button id="menu-toggle" class="hamburger-menu">
-            ☰
-        </button>
-
-        <ul class="nav nav-tabs" id="nav-menu">
-
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html">Início</a>
-            </li>
+                <a href="/languages/Spanish/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
+                        alt="para entrar ">para entrar</button></a>
+                <!--  <a href="/register.html"><button type="button" class="btn btn-dark" title=" Cadastrar"
+                        alt="Registro">Registro</button></a> -->
 
 
+            </div>
+        </div>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/bankOpportunities.html">Banco de Oportunidades</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/educationCareers.html">Educação e Carreira</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/news.html">Notícias</a>
-            </li>
+        <div class="navbar">
+            <ul class="nav nav-tabs" id="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/index.html">Comenzar</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/aboutUs.html">Sobre nós</a>
-            </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="/faq.html">FAQ</a>
-            </li>
-        </ul>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/bankOpportunities.html">Banco de Oportunidades</a>
+                </li>
 
-        <div class="buttons">
-            <!-- <a href=""><button type="button" class="btn btn-dark" title=" Doar" alt="Doar">Doar</button></a> -->
-            <a href="/login.html"><button type="button" class="btn btn-dark" title=" Entrar"
-                    alt="Entrar">Entrar</button></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/educationCareers.html">Educación y carrera </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/news.html">Noticias</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/aboutUs.html">Sobre nosotro</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/languages/Spanish/faq.html">FAQ</a>
+                </li>
+
+            </ul>
         </div>
     </header>
 
@@ -77,7 +89,7 @@
     <main>
         <form class="form">
 
-            <h1>Cadastro</h1>
+            <h1>Registro</h1>
 
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -109,7 +121,7 @@
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
                         </svg>
-                        <input type="text" class="input" placeholder="Nome Completo">
+                        <input type="text" class="input" placeholder="Nombre completo">
                     </div>
 
                     <div class="inputForm">
@@ -120,7 +132,7 @@
                             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                         </svg>
                         <input list="nacionalidades" type="text" class="input" id="nacionalidadeInput"
-                            placeholder="Nacionalidade">
+                            placeholder="Nacionalidad">
                         <datalist id="nacionalidades">
                             <!-- As opções serão geradas aqui via JS -->
                         </datalist>
@@ -138,11 +150,13 @@
                         <input type="number" class="input" placeholder="CPF">
                     </div>
                     <div class="inputForm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
-                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                          </svg>
-                        <input type="number" class="input" placeholder="Telefone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-phone" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                        </svg>
+                        <input type="number" class="input" placeholder="Teléfono">
                     </div>
 
                     <div class="inputForm">
@@ -153,11 +167,11 @@
                             <path
                                 d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
                         </svg>
-                        <input type="date" class="input" placeholder="Nascimento">
+                        <input type="date" class="input" placeholder="Nacimiento">
                     </div>
 
                     <div class="container mt-4">
-                        <h6>Quais funções você exerce?</h6>
+                        <h6>¿Qué funciones desempeña? </h6>
                         <div class="scroll-container scroll-container-profissional">
                             <!-- Os cargos serão adicionados dinamicamente -->
                         </div>
@@ -175,7 +189,7 @@
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
                         </svg>
-                        <input type="text" class="input" placeholder="Nome Completo">
+                        <input type="text" class="input" placeholder="nombre completo">
                     </div>
 
                     <div class="inputForm">
@@ -187,12 +201,33 @@
                         <input type="number" class="input" placeholder="CPF">
                     </div>
 
+
+
+
                     <div class="inputForm">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
-                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
-                          </svg>
-                        <input type="number" class="input" placeholder="Telefone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path
+                                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        <input list="nacionalidades" type="text" class="input" id="nacionalidadeInput"
+                            placeholder="Ubicación ex: São Luís-MA">
+                        <datalist id="nacionalidades">
+                            <!-- As opções serão geradas aqui via JS -->
+                        </datalist>
+                    </div>
+
+
+
+                    <div class="inputForm">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-phone" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                        </svg>
+                        <input type="number" class="input" placeholder="Teléfono">
                     </div>
 
                     <div class="inputForm">
@@ -207,12 +242,12 @@
                     </div>
 
 
-                    <h6>Como você oretende ajudar?</h6>
+                    <h6>¿Cómo piensas ayudar?</h6>
 
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
                             style="height: 100px;  resize: none"></textarea>
-                        <label for="floatingTextarea2">Descreva suas habilidades e experiências...</label>
+                        <label for="floatingTextarea2">Describe tus habilidades y experiencia...</label>
                     </div>
 
                 </div>
@@ -223,7 +258,7 @@
 
 
                 <!-- Empresa -->
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                <div claas="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
                     tabindex="0">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                         aria-labelledby="pills-home-tab" tabindex="0">
@@ -234,7 +269,7 @@
                                 <path
                                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
                             </svg>
-                            <input type="text" class="input" placeholder="Razão Social">
+                            <input type="text" class="input" placeholder="Razón corporativa">
                         </div>
 
                         <div class="inputForm">
@@ -253,11 +288,11 @@
                                 <path
                                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
                             </svg>
-                            <input type="text" class="input" placeholder="Endereço">
+                            <input type="text" class="input" placeholder="Dirección">
                         </div>
 
                         <div class="container mt-4">
-                            <h6>Quais funções sua empresa oferece?</h6>
+                            <h6>¿Qué funciones ofrece su empresa?</h6>
                             <div class="scroll-container scroll-container-empresa">
                                 <!-- Os cargos serão adicionados dinamicamente -->
                             </div>
@@ -294,7 +329,7 @@
 
 
                         <div class="input-container">
-                            <input type="password" id="password" class="input" placeholder="Senha">
+                            <input type="password" id="password" class="input" placeholder="Contraseña">
 
                         </div>
 
@@ -314,7 +349,7 @@
 
 
                         <div class="input-container">
-                            <input type="password" id="password2" class="input" placeholder="Repetir Senha">
+                            <input type="password" id="password2" class="input" placeholder="Repita la contraseña">
 
                         </div>
                     </div>
@@ -323,7 +358,7 @@
 
                         <div>
                             <input type="checkbox" id="togglePasswordCheckbox">
-                            <label for="togglePasswordCheckbox">Mostrar senha</label>
+                            <label for="togglePasswordCheckbox">Mostrar contraseña</label>
                         </div>
 
 
@@ -332,8 +367,8 @@
 
                 </div>
 
-                <button class="button-submit" type="button" id="liveToastBtn" alt="Cadastrar"
-                    title="Cadastrar">Cadastrar</button>
+                <button class="button-submit" type="button" id="liveToastBtn" alt="Registro"
+                    title="Registro">Registro</button>
 
 
 
@@ -342,12 +377,12 @@
                         <div class="toast-header">
                             <img src="/assests/favicon.svg" style="width: 20px; height: 20px;" class="rounded me-2"
                                 alt="...">
-                            <strong class="me-auto">Bem-vindo (a)</strong>
+                            <strong class="me-auto">Bienvenido</strong>
                             <small></small>
                             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
                         <div class="toast-body">
-                            Cadastrado com sucesso!
+                            ¡Registrado exitosamente!
                         </div>
                     </div>
                 </div>
@@ -367,7 +402,7 @@
 
 
 
-                <p class="p line">Cadastrar com</p>
+                <p class="p line">Regístrese con</p>
 
 
                 <div class="flex-row">
@@ -417,7 +452,7 @@
 
                 </div>
 
-                <p class="p">Já é membro? <a href="/login.html"><span class="span">Login</span></a>
+                <p class="p">¿Ya eres miembro? <a href="/login.html"><span class="span">Acceso</span></a>
         </form>
     </main>
 
@@ -435,7 +470,7 @@
             <div class="row" id="footer-element">
 
                 <div class="col">
-                    <img src="/assests/logobr.svg" alt="" id="logo">
+                    <img src="/assests/logoes.svg" alt="" id="logo">
                 </div>
 
 
@@ -455,7 +490,7 @@
                 </div> -->
 
                 <div class="col" id="contatos">
-                    <h4>CONTATOS</h4>
+                    <h4>CONTACTOS</h4>
 
                     <div class="social-media">
                         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -487,7 +522,7 @@
                     </ul>
                 </div>
 
-                <p class="mensage">2025. ©.JUNTOS POR UM NOVO LAR. TODOS OS DIREITOS RESERVADOS.</p>
+                <p class="mensage">2025. ©.JUNTOS POR UN NUEVO HOGAR. RESERVADOS TODOS LOS DERECHOS.</p>
             </div>
 
         </div>
