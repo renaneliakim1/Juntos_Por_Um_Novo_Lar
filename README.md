@@ -24,12 +24,14 @@ Projeto desenvolvido em grupo durante a formação RECODE POR IA.
 ## 🚀 Integrantes
 
 - Renã Eliakim Oliveira Silva (Líder)
-- Lidiane do Socorro Brito Monteiro (Vice-Líder)
-- Thiago de Almeida Pereira
+- Lidiane do Socorro Brito Monteiro (Vice-Líder) [lidianemonteiro](https://github.com/lidianemonteiro)
+- Thiago de Almeida Pereira 
 
 ## 💻 Projeto
 
 - <b>Juntos por um Novo Lar</b>
+  Um site que conecta refugiados a vagas de emprego e cursos profissionalizantes pode ajudar a resolver esses problemas ao oferecer oportunidades concretas de inserção no mercado de trabalho e capacitação profissional.
+
 
 - Objetivos de Desenvolvimento Sustentável:
 
@@ -39,7 +41,7 @@ Projeto desenvolvido em grupo durante a formação RECODE POR IA.
 
 - problema identificado:
 
- Refugiados enfrentam múltiplos desafios ao chegar em um novo país, incluindo barreiras linguísticas, dificuldades na validação de diplomas, falta de rede de contatos e dificuldades financeiras. Um site que conecta refugiados a vagas de emprego e cursos profissionalizantes pode ajudar a resolver esses problemas ao oferecer oportunidades concretas de inserção no mercado de trabalho e capacitação profissional.
+  Refugiados enfrentam múltiplos desafios ao chegar em um novo país, incluindo barreiras linguísticas, dificuldades na validação de diplomas, falta de rede de contatos e dificuldades financeiras. Um site que conecta refugiados a vagas de emprego e cursos profissionalizantes pode ajudar a resolver esses problemas ao oferecer oportunidades concretas de inserção no mercado de trabalho e capacitação profissional.
 
 - público-alvo:
   
