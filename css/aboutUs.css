@@ -316,119 +316,7 @@ footer .mensage {
 }
 
 
-/* Responsividade para dispositivos grandes */
-@media (max-width: 1200px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .doacao {
-    flex-direction: column;
-    height: auto;
-    padding: 5rem;
-  }
-
-  .doacao>div,
-  .section-doacao {
-    height: auto;
-    padding: 10px;
-  }
-}
-
-
-@media (max-width: 924px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-}
-
-/* Responsividade para tablets */
-@media (max-width: 768px) {
-  header {
-    padding: 10px;
-    gap: 20px;
-    padding-bottom: 20px;
-  }
-
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  #nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: var(--background--);
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    gap: 10px;
-    z-index: 9;
-  }
-
-  #nav-menu.show {
-    display: flex;
-  }
-
-
-  /* Psychedelic background effect */
-  .input-wrapper::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: conic-gradient(from 0deg,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25,
-        #D34A25);
-    animation: rotate 4s linear infinite;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1;
-  }
-
-  .input-wrapper:hover::before,
-  .input-wrapper:focus-within::before {
-    opacity: 1;
-  }
-
-
-  footer {
-    background-color: var(--color-text);
-    color: #fff;
-
-  }
-
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  footer a:hover {
-    color: var(--color-hover);
-  }
-
-  footer ul {
-    list-style: none;
-  }
-
-}
 
 /* Responsividade para dispositivos grandes */
 @media (max-width: 1200px) {
@@ -508,16 +396,13 @@ footer .mensage {
 
 }
 
+
 /* Responsividade para tablets */
 @media (max-width: 768px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    align-items: center;
-    padding-bottom: 40px;
+    padding: 10px;
+    gap: 20px;
+    padding-bottom: 20px;
 
 
     position: sticky;
@@ -526,34 +411,34 @@ footer .mensage {
     background-color: rgb(255, 255, 255);
     z-index: 9999999;
     height: 2.5rem;
-    padding-top: 0.5rem;
-    height: auto;
-
-
-
+    padding-top: 4.5rem;
+    padding-bottom: 6rem;
 
 
 
   }
 
 
+  
+.header-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  
+}
 
 
-  .header-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.navbar{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
 
-  }
+  
+}
 
 
-  .navbar {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-
-  }
 
 
 
@@ -567,17 +452,18 @@ footer .mensage {
     flex-direction: column;
     background-color: var(--background--);
     position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    padding: 10px;
+  
+    padding-top: 50px;
     gap: 10px;
     z-index: 9;
+    width: 100%;
   }
 
   #nav-menu.show {
     display: flex;
+    width: 100%;
   }
+
 
 
 
@@ -611,6 +497,8 @@ footer .mensage {
 @media (max-width: 480px) {
   header {
     padding: 5px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .doacao {
@@ -628,46 +516,3 @@ footer .mensage {
   }
 }
 
-
-/* Responsividade para smartphones */
-@media (max-width: 480px) {
-  /*   header {
-    padding: 20px;
-  } */
-
-  .doacao {
-    padding: 5px;
-  }
-
-  .section-doacao {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .carousel-inner {
-    height: 15rem;
-  }
-
-  .card,
-  .card-noticias {
-    width: 100%;
-  }
-
-  .depoimentos {
-    padding: 5px;
-  }
-
-  .input-wrapper {
-    width: 90%;
-  }
-
-  h1,
-  .titulo {
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
-
-  footer {
-    font-size: 0.8rem;
-  }
-}

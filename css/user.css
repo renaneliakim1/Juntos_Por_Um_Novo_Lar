@@ -930,24 +930,24 @@ footer .mensage {
   }
 
 
-
-  .header-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-  }
-
-
-  .navbar {
-    display: flex;
-    justify-content: center !important;
-    align-items: center;
-
-  }
+  
+.header-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  
+}
 
 
+.navbar{
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
+
+  
+}
 
 
 
@@ -962,19 +962,18 @@ footer .mensage {
     display: none;
     flex-direction: column;
     background-color: var(--background--);
-    position: absolute;
-    top: 50px;
-    left: 0;
+
     width: 100%;
-    padding: 10px;
+    padding-top: 50px;
     gap: 10px;
     z-index: 9;
+    width: 100%;
   }
 
   #nav-menu.show {
     display: flex;
+    width: 100%;
   }
-
 
 
 
